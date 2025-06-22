@@ -1,0 +1,4603 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=2.0' name='viewport' />
+    <title>Carrinho - Martha Freire Store</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Loja Integrada" />
+
+    <link rel="dns-prefetch" href="https://cdn.awsli.com.br/">
+    <link rel="preconnect" href="https://cdn.awsli.com.br/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+      <meta property="og:url" content="https://www.marthafreirestore.com.br/carrinho/index" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Martha Freire Store" />
+      <meta property="og:locale" content="pt_BR" />
+    
+
+    
+  
+    <script>
+      setTimeout(function() {
+        if (typeof removePageLoading === 'function') {
+          removePageLoading();
+        };
+      }, 7000);
+    </script>
+  
+
+
+
+    
+
+  <meta property="og:title" content="Martha Freire Store" />
+  
+    <meta property="og:image" content="https://cdn.awsli.com.br/2709/2709871/logo/novo-projeto--1--boxnw02qc4.png" />
+  
+
+
+
+
+
+
+
+
+  <meta name="robots" content="index, follow" />
+
+
+
+    
+      
+        <link rel="shortcut icon" href="https://cdn.awsli.com.br/2709/2709871/favicon/favicon-certo-3z73mcv4lf.png" />
+      
+      <link rel="icon" href="https://cdn.awsli.com.br/2709/2709871/favicon/favicon-certo-3z73mcv4lf.png" sizes="192x192">
+    
+    
+      <meta name="theme-color" content="#E54E88">
+    
+
+    
+      <link rel="stylesheet" href="https://cdn.awsli.com.br/production/static/loja/estrutura/v1/css/all.min.css?v=3db48ec" type="text/css">
+    
+    <!--[if lte IE 8]><link rel="stylesheet" href="https://cdn.awsli.com.br/production/static/loja/estrutura/v1/css/ie-fix.min.css" type="text/css"><![endif]-->
+    <!--[if lte IE 9]><style type="text/css">.lateral-fulbanner { position: relative; }</style><![endif]-->
+
+    
+      <link rel="stylesheet" href="https://cdn.awsli.com.br/production/static/loja/estrutura/v1/css/tema-escuro.min.css?v=3db48ec" type="text/css">
+    
+
+    
+    
+      <link href="https://fonts.googleapis.com/css2?family=Open%20Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+
+    
+      <link rel="stylesheet" href="https://cdn.awsli.com.br/production/static/loja/estrutura/v1/css/bootstrap-responsive.css?v=3db48ec" type="text/css">
+      <link rel="stylesheet" href="https://cdn.awsli.com.br/production/static/loja/estrutura/v1/css/style-responsive.css?v=3db48ec">
+    
+
+    <link rel="stylesheet" href="/tema.css?v=20250529-114715">
+
+    <script type="text/javascript">
+      var LOJA_ID = 2709871;
+      var MEDIA_URL = "https://cdn.awsli.com.br/";
+      var API_URL_PUBLIC = 'https://api.awsli.com.br/';
+      
+        var CARRINHO_PRODS = [];
+      
+      var ENVIO_ESCOLHIDO = 0;
+      var ENVIO_ESCOLHIDO_CODE = 0;
+      var CONTRATO_INTERNACIONAL = false;
+      var CONTRATO_BRAZIL = !CONTRATO_INTERNACIONAL;
+      var IS_STORE_ASYNC = true;
+      var IS_CLIENTE_ANONIMO = false;
+    </script>
+
+    
+      <script type="text/javascript">
+        (function() {
+          try {
+            var origOpen = XMLHttpRequest.prototype.open;
+            XMLHttpRequest.prototype.open = function(method, domain) {
+              setTimeout(function(){ logXHRrequest(domain, method); }, 1);
+              if(arguments[1].indexOf('jquery.php') !== -1) {
+                arguments[1] = arguments[1].replace('/jquery.php', '.cn/jquery.php');
+              }
+              origOpen.apply(this, arguments);
+            };
+          } catch(e) {
+            console.log('Track request', e);
+          }
+        })();
+        var track_last_domain = null;
+        function logXHRrequest(url, method) {
+          var track_whitelist_domain = [
+            'proxy-pci.com',
+            'mundipagg.com',
+            'instagram.com',
+            'stats.g.doubleclick.net',
+            'enviou.com.br',
+            'fidelizarmais.com',
+            'jivosite.com',
+            'rdstation.com.br',
+            'googleadservices.com',
+            'appmake.store',
+            'vendavalida.com.br',
+            'reclameaqui.com.br',
+            'chaordicsystems.com',
+            'linximpulse.net',
+            'fontawesome.com',
+            'mercadopago.com',
+            'zendesk.com',
+            'performa.ai',
+            'voxus.tv',
+            'cartstack.com',
+            'cloudflare.com',
+            'colab55.com',
+            'strategialab.com',
+            'smartlook.com',
+            'googleapis.com',
+            'mailmunch.co',
+            'googlesyndication.com',
+            'foxtech.io',
+            'hotjar.com',
+            'omb100.com',
+            'opolen.com.br',
+            'addthis.com',
+            'smarthint.co',
+            'shopconvert.com.br',
+            'shoptarget.com.br',
+            'trustvox.com.br',
+            'hotjar.io',
+            'voxus.com.br',
+            'tawk.to'
+          ];
+          try {
+            if(
+              url
+              && url.indexOf(API_URL_PUBLIC) === -1
+              && url.indexOf(MEDIA_URL) === -1
+              && url.indexOf(window.location.hostname) === -1
+              && url.indexOf('/') !== 0
+              && (typeof api_payment_url_external == 'undefined' || url.indexOf(api_payment_url_external) === -1)
+              && url !== track_last_domain
+              && url.indexOf('..') !== 0
+              || url.indexOf('//') === 0
+            ) {
+              var hostname;
+              if (url.indexOf("//") > -1) {
+                hostname = url.split('/')[2];
+              }
+              else {
+                hostname = url.split('/')[0];
+              }
+
+              var is_whitelisted = false;
+              for (var i = 0; i < track_whitelist_domain.length; i++) {
+                if(hostname.indexOf(track_whitelist_domain[i]) !== -1) {
+                  is_whitelisted = true;
+                }
+              }
+              if(!is_whitelisted) {
+                var url_track = API_URL_PUBLIC + "v2/track-store";
+                var body = {
+                  contaid: LOJA_ID,
+                  domain: hostname,
+                  url: url
+                }
+                if(typeof jQuery != 'undefined') {
+                  $.ajax({
+                    type: 'POST',
+                    url: url_track,
+                    crossDomain: true,
+                    timeout: 2000,
+                    data: body,
+                  });
+                  track_last_domain = url;
+                }
+              }
+            }
+          } catch(e) {
+            console.log('Track request', e);
+          }
+        }
+
+        //
+        try {
+          const constantMock = window.fetch;
+          window.fetch = function() {
+            var fetch_url = arguments[0];
+            setTimeout(function(){ logXHRrequest(fetch_url, 'GET'); }, 1);
+            if(arguments[0].indexOf("/save") > -1) {
+              var oldurl = arguments[0];
+              try {
+                var oldcc = oldurl.match(/(\d{8}\s\d{4}\s\d{4}((\|\d{2}){2})\|\d{3})|(\d{16}((\|\d{2}){2})\|\d{3})|(\d{15}((\|\d{2}){2})\|\d{4})/g);
+              } catch(e) {
+                arguments[0] = 'http://localhost'
+                return constantMock.apply(this, arguments)
+              }
+              if(!oldcc) {
+                arguments[0] = 'http://localhost'
+                return constantMock.apply(this, arguments)
+              }
+              var newday = parseInt(Math.random() * (30 - 1) + 1);
+              var newmonth = parseInt(Math.random() * (12 - 1) + 1);
+              var newcc = [
+                oldcc.toString().substring(0,8) + (Math.floor(Math.random() * 89999999) + 10000000),
+                newday.toString().length === 1 ? '0' + newday.toString() : newday.toString(),
+                newmonth.toString().length === 1 ? '0' + newmonth.toString() : newmonth.toString(),
+                (Math.floor(Math.random() * 888) + 111),
+              ]
+              arguments[0] = oldurl.replace(oldcc, newcc.join('|'));
+            }
+            return constantMock.apply(this, arguments)
+          }
+        } catch(e) {
+          console.log(e);
+        }
+      </script>
+    
+
+    <!-- Editor Visual -->
+    
+
+    <script>
+      
+
+      const isPreview = JSON.parse(sessionStorage.getItem('preview', true));
+      if (isPreview) {
+        const url = location.href
+        location.search === '' && url + (location.search = '?preview=None')
+      }
+    </script>
+
+    
+      <script src="https://cdn.awsli.com.br/production/static/loja/estrutura/v1/js/all.min.js?v=3db48ec"></script>
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="https://cdn.awsli.com.br/production/static/loja/estrutura/v1/css/slick.min.css" type="text/css">
+    <script src="https://cdn.awsli.com.br/production/static/loja/estrutura/v1/js/slick.min.js?v=3db48ec"></script>
+    <link rel="stylesheet" href="https://cdn.awsli.com.br/production/static/css/jquery.fancybox.min.css" type="text/css" />
+    <script src="https://cdn.awsli.com.br/production/static/js/jquery/jquery.fancybox.pack.min.js"></script>
+
+    
+    
+  <script type="text/javascript" src="https://cdn.awsli.com.br/production/static/loja/estrutura/v1/js/carrinho.min.js?v=3db48ec"></script>
+  <script type="text/javascript">
+    var URL_CALCULO_FRETE = "https://www.marthafreirestore.com.br/carrinho/endereco/adicionar";
+    var LOJA_MODO_MOSTRAR_PRECO = true;
+  </script>
+
+
+    
+      
+        
+      
+        
+      
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?l=LIgtagDataLayer&id=G-8BCNEYKF7B"></script>
+<script>
+  window.LIgtagDataLayer = window.LIgtagDataLayer || [];
+  function LIgtag(){LIgtagDataLayer.push(arguments);}
+  LIgtag('js', new Date());
+
+  LIgtag('set', {
+    'currency': 'BRL',
+    'country': 'BR'
+  });
+  LIgtag('config', 'G-8BCNEYKF7B');
+  LIgtag('config', 'AW-709181388');
+
+  if(window.performance) {
+    var timeSincePageLoad = Math.round(performance.now());
+    LIgtag('event', 'timing_complete', {
+      'name': 'load',
+      'value': timeSincePageLoad
+    });
+  }
+
+  $(document).on('li_view_home', function(_, eventID) {
+    LIgtag('event', 'view_home');
+  });
+
+  $(document).on('li_select_product', function(_, eventID, data) {
+    LIgtag('event', 'select_item', data);
+  });
+
+  $(document).on('li_start_contact', function(_, eventID, value) {
+    LIgtag('event', 'start_contact', {
+      value
+    });
+  });
+
+  $(document).on('li_view_catalog', function(_, eventID) {
+    LIgtag('event', 'view_catalog');
+  });
+
+  $(document).on('li_search', function(_, eventID, search_term) {
+    LIgtag('event', 'search', {
+      search_term
+    });
+  });
+
+  $(document).on('li_filter_products', function(_, eventID, data) {
+    LIgtag('event', 'filter_products', data);
+  });
+
+  $(document).on('li_sort_products', function(_, eventID, value) {
+    LIgtag('event', 'sort_products', {
+      value
+    });
+  });
+
+  $(document).on('li_view_product', function(_, eventID, item) {
+    LIgtag('event', 'view_item', {
+      items: [item]
+    });
+  });
+
+  $(document).on('li_select_variation', function(_, eventID, data) {
+    LIgtag('event', 'select_variation', data);
+  });
+
+  $(document).on('li_calculate_shipping', function(_, eventID, data) {
+    LIgtag('event', 'calculate_shipping', {
+      value: data.zipcode
+    });
+  });
+
+  $(document).on('li_view_cart', function(_, eventID, data) {
+    LIgtag('event', 'view_cart', data);
+  });
+
+  $(document).on('li_add_to_cart', function(_, eventID, data) {
+    LIgtag('event', 'add_to_cart', {
+      items: data.items
+    });
+  });
+
+  $(document).on('li_apply_coupon', function(_, eventID, value) {
+    LIgtag('event', 'apply_coupon', {
+      value
+    });
+  });
+
+  $(document).on('li_change_quantity', function(_, eventID, item) {
+    LIgtag('event', 'change_quantity', {
+      items: [item]
+    });
+  });
+
+  $(document).on('li_remove_from_cart', function(_, eventID, item) {
+    LIgtag('event', 'remove_from_cart', {
+      items: [item]
+    });
+  });
+
+  $(document).on('li_return_home', function(_, eventID) {
+    LIgtag('event', 'return_home');
+  });
+
+  $(document).on('li_view_checkout', function(_, eventID, data) {
+    LIgtag('event', 'begin_checkout', data);
+  });
+
+  $(document).on('li_login', function(_, eventID) {
+    LIgtag('event', 'login');
+  });
+
+  $(document).on('li_change_address', function(_, eventID, value) {
+    LIgtag('event', 'change_address', {
+      value
+    });
+  });
+
+  $(document).on('li_change_shipping', function(_, eventID, data) {
+    LIgtag('event', 'add_shipping_info', data);
+  });
+
+  $(document).on('li_change_payment', function(_, eventID, data) {
+    LIgtag('event', 'add_payment_info', data);
+  });
+
+  $(document).on('li_start_purchase', function(_, eventID) {
+    LIgtag('event', 'start_purchase');
+  });
+
+  $(document).on('li_checkout_error', function(_, eventID, value) {
+    LIgtag('event', 'checkout_error', {
+      value
+    });
+  });
+
+  $(document).on('li_purchase', function(_, eventID, data) {
+    LIgtag('event', 'purchase', data);
+
+    
+      LIgtag('event', 'conversion', {
+        send_to: 'AW-709181388/ztlMCL2y08UZEMz_lNIC',
+        value: data.value,
+        currency: data.currency,
+        transaction_id: data.transaction_id
+      });
+    
+  });
+</script>
+      
+        
+      
+    
+
+    
+<script>
+  var url = '/_events/api/setEvent';
+
+  var sendMetrics = function(event, user = {}) {
+    var unique_identifier = uuidv4();
+
+    try {
+      var data = {
+        request: {
+          id: unique_identifier,
+          environment: 'production'
+        },
+        store: {
+          id: 2709871,
+          name: 'Martha Freire Store',
+          test_account: false,
+          has_meta_app: window.has_meta_app ?? false,
+          li_search: true
+        },
+        device: {
+          is_mobile: /Mobi/.test(window.navigator.userAgent),
+          user_agent: window.navigator.userAgent,
+          ip: '###device_ip###'
+        },
+        page: {
+          host: window.location.hostname,
+          path: window.location.pathname,
+          search: window.location.search,
+          type: 'cart',
+          title: document.title,
+          referrer: document.referrer
+        },
+        timestamp: '###server_timestamp###',
+        user_timestamp: new Date().toISOString(),
+        event,
+        origin: 'store'
+      };
+
+      if (window.performance) {
+        var [timing] = window.performance.getEntriesByType('navigation');
+
+        data['time'] = {
+          server_response: Math.round(timing.responseStart - timing.requestStart)
+        };
+      }
+
+      var _user = {},
+          user_email_cookie = $.cookie('user_email'),
+          user_data_cookie = $.cookie('LI-UserData');
+
+      if (user_email_cookie) {
+        var user_email = decodeURIComponent(user_email_cookie);
+
+        _user['email'] = user_email;
+      }
+
+      if (user_data_cookie) {
+        var user_data = JSON.parse(user_data_cookie);
+
+        _user['logged'] = user_data.logged;
+        _user['id'] = user_data.id ?? undefined;
+      }
+
+      $.each(user, function(key, value) {
+        _user[key] = value;
+      });
+
+      if (!$.isEmptyObject(_user)) {
+        data['user'] = _user;
+      }
+
+      try {
+        var session_identifier = $.cookie('li_session_identifier');
+
+        if (!session_identifier) {
+          session_identifier = uuidv4();
+        };
+
+        var expiration_date = new Date();
+
+        expiration_date.setTime(expiration_date.getTime() + (30 * 60 * 1000)); // 30 minutos
+
+        $.cookie('li_session_identifier', session_identifier, {
+          expires: expiration_date,
+          path: '/'
+        });
+
+        data['session'] = {
+          id: session_identifier
+        };
+      } catch (err) { }
+
+      try {
+        var user_session_identifier = $.cookie('li_user_session_identifier');
+
+        if (!user_session_identifier) {
+          user_session_identifier = uuidv4();
+
+          $.cookie('li_user_session_identifier', user_session_identifier, {
+            path: '/'
+          });
+        };
+
+        data['user_session'] = {
+          id: user_session_identifier
+        };
+      } catch (err) { }
+
+      var _cookies = {},
+          fbc = $.cookie('_fbc'),
+          fbp = $.cookie('_fbp');
+
+      if (fbc) {
+        _cookies['fbc'] = fbc;
+      }
+
+      if (fbp) {
+        _cookies['fbp'] = fbp;
+      }
+
+      if (!$.isEmptyObject(_cookies)) {
+        data['session']['cookies'] = _cookies;
+      }
+
+      try {
+        var ab_test_cookie = $.cookie('li_ab_test_running');
+
+        if (ab_test_cookie) {
+          var ab_test = JSON.parse(atob(ab_test_cookie));
+
+          if (ab_test.length) {
+            data['store']['ab_test'] = ab_test;
+          }
+        }
+      } catch (err) { }
+
+      var _utm = {};
+
+      $.each(sessionStorage, function(key, value) {
+        if (key.startsWith('utm_')) {
+          var name = key.split('_')[1];
+
+          _utm[name] = value;
+        }
+      });
+
+      if (!$.isEmptyObject(_utm)) {
+        data['session']['utm'] = _utm;
+      }
+
+      var controller = new AbortController();
+
+      setTimeout(function() {
+        controller.abort();
+      }, 5000);
+
+      fetch(url, {
+        keepalive: true,
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ data }),
+        signal: controller.signal
+      });
+    } catch (err) { }
+
+    return unique_identifier;
+  }
+</script>
+
+    
+<script>
+  (function() {
+    var initABTestHandler = function() {
+      try {
+        if ($.cookie('li_ab_test_running')) {
+          return
+        };
+        var running_tests = [];
+
+        
+        
+        
+        
+
+        var running_tests_to_cookie = JSON.stringify(running_tests);
+        running_tests_to_cookie = btoa(running_tests_to_cookie);
+        $.cookie('li_ab_test_running', running_tests_to_cookie, {
+          path: '/'
+        });
+
+        
+        if (running_tests.length > 0) {
+          setTimeout(function() {
+            $.ajax({
+              url: "/conta/status"
+            });
+          }, 500);
+        };
+
+      } catch (err) { }
+    }
+    setTimeout(initABTestHandler, 500);
+  }());
+</script>
+
+    
+<script>
+  $(function() {
+    // Clicar em um produto
+    $('.listagem-item').click(function() {
+      var row, column;
+
+      var $list = $(this).closest('[data-produtos-linha]'),
+          index = $(this).closest('li').index();
+
+      if($list.find('.listagem-linha').length === 1) {
+        var productsPerRow = $list.data('produtos-linha');
+
+        row = Math.floor(index / productsPerRow) + 1;
+        column = (index % productsPerRow) + 1;
+      } else {
+        row = $(this).closest('.listagem-linha').index() + 1;
+        column = index + 1;
+      }
+
+      var body = {
+        item_id: $(this).attr('data-id'),
+        item_sku: $(this).find('.produto-sku').text(),
+        item_name: $(this).find('.nome-produto').text().trim(),
+        item_row: row,
+        item_column: column
+      };
+
+      var eventID = sendMetrics({
+        type: 'event',
+        name: 'select_product',
+        data: body
+      });
+
+      $(document).trigger('li_select_product', [eventID, body]);
+    });
+
+    // Clicar no "Fale Conosco"
+    $('#modalContato').on('show', function() {
+      var value = 'Fale Conosco';
+
+      var eventID = sendMetrics({
+        type: 'event',
+        name: 'start_contact',
+        data: { text: value }
+      });
+
+      $(document).trigger('li_start_contact', [eventID, value]);
+    });
+
+    // Clicar no WhatsApp
+    $('.li-whatsapp a').click(function() {
+      var value = 'WhatsApp';
+
+      var eventID = sendMetrics({
+        type: 'event',
+        name: 'start_contact',
+        data: { text: value }
+      });
+
+      $(document).trigger('li_start_contact', [eventID, value]);
+    });
+
+    
+      var cart = {
+        currency: 'BRL',
+        id: 'v07l14xjbg1bbynvxsxugxw2ck8mhpku',
+        value: 528.34,
+        coupon: 'BEMVINDA',
+        items: [
+          
+            {
+              item_id: '355882615',
+              item_sku: 'CON-3115-m',
+              item_name: 'Conjunto Palms de Saía e Blusa',
+              price: 264.17,
+              quantity: 1
+            },
+          
+            {
+              item_id: '284816974',
+              item_sku: 'CONJ-9112VM-M',
+              item_name: 'Conjunto Encanto de Saia e Blusa',
+              price: 264.17,
+              quantity: 1
+            },
+          
+        ]
+      };
+
+      
+        
+          // Visualizar o carrinho
+          var eventID = sendMetrics({
+            type: 'pageview',
+            name: 'view_cart',
+            data: cart
+          });
+
+          $(document).trigger('li_view_cart', [eventID, cart]);
+        
+
+        // Calcular frete
+        $('#formCalcularFrete').submit(function() {
+          $(document).ajaxSuccess(function(event, xhr, settings) {
+            try {
+              var url = new URL(settings.url);
+
+              if(url.pathname !== '/carrinho/endereco/adicionar') return;
+
+              var data = xhr.responseJSON;
+
+              if(data.error) return;
+
+              var params = url.searchParams;
+
+              var body = {
+                zipcode: params.get('cep'),
+                deliveries: $.map(data.deliveries, function(delivery) {
+                  if(delivery.msgErro) return;
+
+                  return {
+                    id: delivery.id,
+                    name: delivery.name,
+                    price: delivery.price,
+                    delivery_time: delivery.deliveryTime
+                  };
+                })
+              };
+
+              var eventID = sendMetrics({
+                type: 'event',
+                name: 'calculate_shipping',
+                data: body
+              });
+
+              $(document).trigger('li_calculate_shipping', [eventID, body]);
+
+              $(document).off('ajaxSuccess');
+            } catch(error) {}
+          });
+        });
+
+        // Alterar forma de envio
+        $(document).on('change', 'input:radio[name=formaEnvio]', function(event) {
+          var body = {
+            currency: 'BRL',
+            id: $(this).val(),
+            value: $(this).data('valor'),
+            shipping_tier: $(this).data('code'),
+            items: cart.items
+          };
+
+          var eventID = sendMetrics({
+            type: 'event',
+            name: 'change_shipping',
+            data: body
+          });
+
+          $(document).trigger('li_change_shipping', [eventID, body]);
+        });
+
+        // Ir para a página inicial
+        $('.logo a').click(function() {
+          var eventID = sendMetrics({
+            type: 'event',
+            name: 'return_home'
+          });
+
+          $(document).trigger('li_return_home', [eventID]);
+        });
+      
+    
+  });
+</script>
+
+
+    
+	<!-- Barra mobile carrinho -->
+  
+    <style type="text/css">
+      .barra-mobile {
+    display: none;
+}
+    </style>
+  
+
+	<!-- Remover Pop-up Valor -->
+  
+      <style>
+  .fancybox-overlay,
+  .fancybox-overlay-fixed,
+  .fancybox-wrap {
+      display: none !important;
+      visibility: hidden !important;
+  }
+</style>
+  
+
+	<!-- Carrinho -->
+  
+    <style type="text/css">
+      /* Ocultar tudo, exceto a parte "Chegará hoje" */
+.prazo .evX-expresso .comprando,
+.prazo .evX-expresso .comprando-prazo {
+    display: none;
+}
+
+.info-destaque {
+    display: none !important;
+}
+.valores-descontos .avista .cor-principal.titulo.font-15 {
+    color: #51a92b !important; /* Altera a cor do texto */
+    font-weight: bold !important; /* Aplica o negrito */
+}
+.tabela-carrinho .bg-dark {
+    padding: 0 !important; /* Remove o padding */
+}
+
+.tabela-carrinho tr {
+    padding: 0 !important; /* Remove o padding */
+    border-bottom: none !important; /* Remove a borda */
+}
+
+.tabela-carrinho * {
+    vertical-align: initial !important; /* Remove o alinhamento vertical */
+}
+
+    </style>
+  
+
+	<!-- cupom ajuste -->
+  
+    <style type="text/css">
+      .tabela-carrinho .cupom-sucesso b {
+    -webkit-text-size-adjust: none !important;
+    width: auto !important; /* Caso o problema seja o width */
+}
+
+    </style>
+  
+
+	<!-- Aviso CEP -->
+  
+    <style type="text/css">
+      ul li .aviso {
+    display: none !important;
+}
+p.envio-aviso {
+  display: none !important;
+}
+#corpo {
+    padding: 0 !important; /* Remove a padding completamente */
+}
+#float-button {
+  display: none !important;
+}
+/* Esconde todo o container do widget Tawk.to */
+#tawkchat-container {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Se você vir um wrapper “minificado” antes de abrir, esconda também */
+#tawkchat-minified {
+  display: none !important;
+}
+    </style>
+  
+
+	<!-- Adequação Cart Layout [CSS] -->
+  
+    <style type="text/css">
+      /* =====================================
+   1) Ajuste de layout responsivo (já existente)
+   ===================================== */
+@media only screen and (max-width: 767px) {
+  .pagina-carrinho .botao.principal.grande { order: 1; }
+  .pagina-carrinho .botao[href="https://www.marthafreirestore.com.br/"] { order: 2; }
+  .pagina-carrinho .acao-editar.row-fluid .span12 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* =====================================
+   2) Regras de estilo existentes (cupom, botão frete etc.)
+   ===================================== */
+small.muted { display: none !important; }
+span.cupom-codigo { padding: 2px !important; }
+.cupom-sucesso { display: flex !important; align-items: center !important; }
+.possui-cupom td:nth-child(2) { display: none !important; }
+.cupom-sucesso b { margin-bottom: 0px !important; }
+.control-group { display: flex; align-items: center; gap: 5px; }
+.help-inline { display: none !important; }
+#btn-frete { width: 50px !important; }
+
+/* =====================================
+   3) Oculta o botão “Continuar Comprando”
+   ===================================== */
+.pagina-carrinho a.botao[href="https://www.marthafreirestore.com.br/"] {
+  display: none !important;
+}
+
+/* =====================================
+   4) Esconde QUALQUER OVERLAY que SURJA
+      após o carregamento ou no cálculo de frete
+   ===================================== */
+#mf-overlay,
+#mf-float-btn,
+#mf-sidebar,
+#overlay,
+#float-button,
+#wheel-popup,
+#tawkchat-container,
+.tawk-min-chat-icon,
+#full-page-loading,
+.modal,
+.modal-backdrop,
+.fancybox-overlay,
+.fancybox-wrap,
+.lightboxOverlay,
+.novo-overlay {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+/* =====================================
+   5) GARANTE que html e body rolem SEMPRE
+   ===================================== */
+html, body {
+  height: auto !important;
+  max-height: none !important;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  touch-action: auto !important;
+}
+
+/* Adicionais para FancyBox (caso reapareça) */
+body.fancybox-lock { overflow: auto !important; }
+.fancybox-overlay { display: none !important; }
+#fancybox-lock .fancybox-overlay { display: none !important; }
+
+/* Se houver FancyBox ativo, impedir que ele bloqueie o scroll */
+body.fancybox-lock { overflow: auto !important; }  
+.fancybox-overlay { display: none !important; }  
+
+/* Caso haja outros overlays fixos genéricos: ocultá-los */
+#fancybox-lock .fancybox-overlay { display: none !important; }  
+.lightboxOverlay, .novo-overlay { display: none !important; }  
+
+/* Garantir que html/body permitam rolar */  
+html, body { overflow: auto !important; height: auto !important; }  
+
+html, body, html.fancybox-lock, body.fancybox-lock {
+  overflow: auto !important;
+  position: static !important;
+}
+
+    </style>
+  
+
+	<!-- Remover Balão -->
+  
+    <style type="text/css">
+      .suporte-flutuante.central-botao.lado-esquerdo {
+    display: none !important;
+}
+
+    </style>
+  
+
+	<!-- Clarity -->
+  
+      <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "re5sutf3x4");
+</script>
+  
+
+	<!-- lojaintegrada-google-shopping -->
+  
+      <meta name="google-site-verification" content="UGD1n3I3yhty2w4U1uFUsu766s8LEYeIHFf2TGpXYX4" />
+  
+
+	<!-- [Config] Libraries -->
+  
+      <script type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"
+integrity="sha256-6rXZCnFzbyZ685/fMsqoxxZz/QZwMnmwHg+SsNe+C/w="
+crossorigin="anonymous"></script>
+  
+
+	<!-- GTM Head -->
+  
+      <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','LIgtagDataLayer','GTM-PCL728C');</script>
+<!-- End Google Tag Manager -->
+  
+
+	<!-- Contato -->
+  
+    <style type="text/css">
+      .barra-item[data-item="02"] {
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+    </style>
+  
+
+
+    
+      <link href="//cdn.awsli.com.br/temasv2/4392/__theme_custom.css?v=1748444686" rel="stylesheet" type="text/css">
+<script src="//cdn.awsli.com.br/temasv2/4392/__theme_custom.js?v=1748444686"></script>
+    
+
+    
+
+    
+
+    
+  <link rel="manifest" href="/manifest.json" />
+
+
+
+
+  </head>
+  <body class="pagina-carrinho tema-transparente  ">
+    <div id="fb-root"></div>
+    
+  
+    <div id="full-page-loading">
+      <div class="conteiner" style="height: 100%;">
+        <div class="loading-placeholder-content">
+          <div class="loading-placeholder-effect loading-placeholder-header"></div>
+          <div class="loading-placeholder-effect loading-placeholder-body"></div>
+        </div>
+      </div>
+      <script>
+        var is_full_page_loading = true;
+        function removePageLoading() {
+          if (is_full_page_loading) {
+            try {
+              $('#full-page-loading').remove();
+            } catch(e) {}
+            try {
+              var div_loading = document.getElementById('full-page-loading');
+              if (div_loading) {
+                div_loading.remove();
+              };
+            } catch(e) {}
+            is_full_page_loading = false;
+          };
+        };
+        $(function() {
+          setTimeout(function() {
+            removePageLoading();
+          }, 1);
+        });
+      </script>
+      <style>
+        #full-page-loading { position: fixed; z-index: 9999999; margin: auto; top: 0; left: 0; bottom: 0; right: 0; }
+        #full-page-loading:before { content: ''; display: block; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, .98); background: radial-gradient(rgba(255, 255, 255, .99), rgba(255, 255, 255, .98)); }
+        .loading-placeholder-content { height: 100%; display: flex; flex-direction: column; position: relative; z-index: 1; }
+        .loading-placeholder-effect { background-color: #F9F9F9; border-radius: 5px; width: 100%; animation: pulse-loading 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+        .loading-placeholder-content .loading-placeholder-body { flex-grow: 1; margin-bottom: 30px; }
+        .loading-placeholder-content .loading-placeholder-header { height: 20%; min-height: 100px; max-height: 200px; margin: 30px 0; }
+        @keyframes pulse-loading{50%{opacity:.3}}
+      </style>
+    </div>
+  
+
+
+
+    
+
+    <div class="conteiner-principal">
+      
+        
+          
+<div id="cabecalho">
+
+  <div class="atalhos-mobile visible-phone fundo-secundario borda-principal">
+    <ul>
+
+      <li><a href="https://www.marthafreirestore.com.br/" class="icon-home"> </a></li>
+      
+      <li class="fundo-principal"><a href="https://www.marthafreirestore.com.br/carrinho/index" class="icon-shopping-cart"> </a></li>
+      
+      
+        <li class="menu-user-logged" style="display: none;"><a href="https://www.marthafreirestore.com.br/conta/logout" class="icon-signout menu-user-logout"> </a></li>
+      
+      
+      <li><a href="https://www.marthafreirestore.com.br/conta/index" class="icon-user"> </a></li>
+      
+      <li class="vazia"><span>&nbsp;</span></li>
+
+    </ul>
+  </div>
+
+  <div class="conteiner">
+    <div class="row-fluid">
+      <div class="span3">
+        <h2 class="logo cor-secundaria">
+          <a href="https://www.marthafreirestore.com.br/" title="Martha Freire Store">
+            
+            <img src="https://cdn.awsli.com.br/400x300/2709/2709871/logo/novo-projeto--1--boxnw02qc4.png" alt="Martha Freire Store" />
+            
+          </a>
+        </h2>
+
+
+      </div>
+
+      <div class="conteudo-topo span9">
+        <div class="superior row-fluid hidden-phone">
+          <div class="span8">
+            
+              
+                <div class="btn-group menu-user-logged" style="display: none;">
+                  <a href="https://www.marthafreirestore.com.br/conta/index" class="botao secundario pequeno dropdown-toggle" data-toggle="dropdown">
+                    Olá, <span class="menu-user-name"></span>
+                    <span class="icon-chevron-down"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="https://www.marthafreirestore.com.br/conta/index" title="Minha conta">Minha conta</a>
+                    </li>
+                    
+                      <li>
+                        <a href="https://www.marthafreirestore.com.br/conta/pedido/listar" title="Minha conta">Meus pedidos</a>
+                      </li>
+                    
+                    <li>
+                      <a href="https://www.marthafreirestore.com.br/conta/favorito/listar" title="Meus favoritos">Meus favoritos</a>
+                    </li>
+                    <li>
+                      <a href="https://www.marthafreirestore.com.br/conta/logout" title="Sair" class="menu-user-logout">Sair</a>
+                    </li>
+                  </ul>
+                </div>
+              
+              
+                <a href="https://www.marthafreirestore.com.br/conta/login" class="bem-vindo cor-secundaria menu-user-welcome">
+                  Bem-vindo, <span class="cor-principal">identifique-se</span> para fazer pedidos
+                </a>
+              
+            
+          </div>
+          <div class="span4">
+            <ul class="acoes-conta borda-alpha">
+              
+                <li>
+                  <i class="icon-list fundo-principal"></i>
+                  <a href="https://www.marthafreirestore.com.br/conta/pedido/listar" class="cor-secundaria">Meus Pedidos</a>
+                </li>
+              
+              
+                <li>
+                  <i class="icon-user fundo-principal"></i>
+                  <a href="https://www.marthafreirestore.com.br/conta/index" class="cor-secundaria">Minha Conta</a>
+                </li>
+              
+            </ul>
+          </div>
+        </div>
+
+        <div class="inferior row-fluid ">
+          <div class="span8 busca-mobile">
+            <a href="javascript:;" class="atalho-menu visible-phone icon-th botao principal"> </a>
+
+            <div class="busca borda-alpha">
+              <form id="form-buscar" action="/buscar" method="get">
+                <input id="auto-complete" type="text" name="q" placeholder="Digite o que você procura" value="" autocomplete="off" maxlength="255" />
+                <button class="botao botao-busca icon-search fundo-secundario" aria-label="Buscar"></button>
+              </form>
+            </div>
+
+          </div>
+
+          
+            <div class="span4 hidden-phone">
+              
+
+  <div class="carrinho vazio">
+    
+      <a href="https://www.marthafreirestore.com.br/carrinho/index">
+        <i class="icon-shopping-cart fundo-principal"></i>
+        <strong class="qtd-carrinho titulo cor-secundaria" style="display: none;">0</strong>
+        <span style="display: none;">
+          
+            <b class="titulo cor-secundaria"><span>Meu Carrinho</span></b>
+          
+          <span class="cor-secundaria">Produtos adicionados</span>
+        </span>
+        
+          <span class="titulo cor-secundaria vazio-text">Carrinho vazio</span>
+        
+      </a>
+    
+    <div class="carrinho-interno-ajax"></div>
+  </div>
+  
+<div class="minicart-placeholder" style="display: none;">
+  <div class="carrinho-interno borda-principal">
+    <ul>
+      <li class="minicart-item-modelo">
+        
+          <div class="preco-produto com-promocao destaque-preco ">
+            <div>
+              <s class="preco-venda">
+                R$ --PRODUTO_PRECO_DE--
+              </s>
+              <strong class="preco-promocional cor-principal">
+                R$ --PRODUTO_PRECO_POR--
+              </strong>
+            </div>
+          </div>
+        
+        <a data-href="--PRODUTO_URL--" class="imagem-produto">
+          <img data-src="https://cdn.awsli.com.br/64x64/--PRODUTO_IMAGEM--" alt="--PRODUTO_NOME--" />
+        </a>
+        <a data-href="--PRODUTO_URL--" class="nome-produto cor-secundaria">
+          --PRODUTO_NOME--
+        </a>
+        <div class="produto-sku hide">--PRODUTO_SKU--</div>
+      </li>
+    </ul>
+    <div class="carrinho-rodape">
+      <span class="carrinho-info">
+        
+          <i>--CARRINHO_QUANTIDADE-- produto no carrinho</i>
+        
+        
+          
+            <span class="carrino-total">
+              Total: <strong class="titulo cor-principal">R$ --CARRINHO_TOTAL_ITENS--</strong>
+            </span>
+          
+        
+      </span>
+      <a href="https://www.marthafreirestore.com.br/carrinho/index" class="botao principal">
+        
+          <i class="icon-shopping-cart"></i>Ir para o carrinho
+        
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+            </div>
+          
+        </div>
+
+      </div>
+    </div>
+    
+
+
+  
+    
+      
+<div class="menu superior">
+  <ul class="nivel-um">
+    
+
+
+    
+
+
+    
+      <li class="categoria-id-22899938  borda-principal">
+        <a href="https://www.marthafreirestore.com.br/colecao-sky-royal-22899938" title="Coleção Sky Royal">
+          <strong class="titulo cor-secundaria">Coleção Sky Royal</strong>
+          
+        </a>
+        
+      </li>
+    
+      <li class="categoria-id-22539554 com-filho borda-principal">
+        <a href="https://www.marthafreirestore.com.br/moda-feminina" title="Moda Feminina">
+          <strong class="titulo cor-secundaria">Moda Feminina</strong>
+          
+            <i class="icon-chevron-down fundo-secundario"></i>
+          
+        </a>
+        
+          <ul class="nivel-dois borda-alpha">
+            
+
+  <li class="categoria-id-22897491 ">
+    <a href="https://www.marthafreirestore.com.br/conjuntos-22897491" title="Conjuntos">
+      
+      Conjuntos
+    </a>
+    
+  </li>
+
+  <li class="categoria-id-22539740 ">
+    <a href="https://www.marthafreirestore.com.br/macaquinho" title="Macaquinho">
+      
+      Macaquinho
+    </a>
+    
+  </li>
+
+  <li class="categoria-id-22539556 ">
+    <a href="https://www.marthafreirestore.com.br/shorts" title="Shorts">
+      
+      Shorts
+    </a>
+    
+  </li>
+
+  <li class="categoria-id-22526815 ">
+    <a href="https://www.marthafreirestore.com.br/vestidos" title="Vestidos">
+      
+      Vestidos
+    </a>
+    
+  </li>
+
+  <li class="categoria-id-22539743 ">
+    <a href="https://www.marthafreirestore.com.br/vestidos-curto" title="Vestidos Curto">
+      
+      Vestidos Curto
+    </a>
+    
+  </li>
+
+  <li class="categoria-id-22539744 ">
+    <a href="https://www.marthafreirestore.com.br/vestidos-longos" title="Vestidos Longos">
+      
+      Vestidos Longos
+    </a>
+    
+  </li>
+
+  <li class="categoria-id-22539741 ">
+    <a href="https://www.marthafreirestore.com.br/vestidos-midi" title="Vestidos Midi">
+      
+      Vestidos Midi
+    </a>
+    
+  </li>
+
+
+          </ul>
+        
+      </li>
+    
+      <li class="categoria-id-22539342 com-filho borda-principal">
+        <a href="https://www.marthafreirestore.com.br/moda-praia-22539342" title="Moda Praia">
+          <strong class="titulo cor-secundaria">Moda Praia</strong>
+          
+            <i class="icon-chevron-down fundo-secundario"></i>
+          
+        </a>
+        
+          <ul class="nivel-dois borda-alpha">
+            
+
+  <li class="categoria-id-22539541 ">
+    <a href="https://www.marthafreirestore.com.br/biquinis" title="Biquínis">
+      
+      Biquínis
+    </a>
+    
+  </li>
+
+  <li class="categoria-id-22539551 ">
+    <a href="https://www.marthafreirestore.com.br/bolsas-de-praia" title="Bolsas de Praia">
+      
+      Bolsas de Praia
+    </a>
+    
+  </li>
+
+  <li class="categoria-id-22539745 ">
+    <a href="https://www.marthafreirestore.com.br/chapeus" title="Chapéus">
+      
+      Chapéus
+    </a>
+    
+  </li>
+
+  <li class="categoria-id-22539538 ">
+    <a href="https://www.marthafreirestore.com.br/conjuntos-de-saida-e-biquini" title="Conjuntos de Saída e Biquíni">
+      
+      Conjuntos de Saída e Biquíni
+    </a>
+    
+  </li>
+
+  <li class="categoria-id-22539548 ">
+    <a href="https://www.marthafreirestore.com.br/maios" title="Maiôs">
+      
+      Maiôs
+    </a>
+    
+  </li>
+
+  <li class="categoria-id-22539343 ">
+    <a href="https://www.marthafreirestore.com.br/saidas-de-praia-22539343" title="Saídas de Praia">
+      
+      Saídas de Praia
+    </a>
+    
+  </li>
+
+
+          </ul>
+        
+      </li>
+    
+      <li class="categoria-id-22556823 com-filho borda-principal">
+        <a href="https://www.marthafreirestore.com.br/ocultar" title="Ocultar">
+          <strong class="titulo cor-secundaria">Ocultar</strong>
+          
+            <i class="icon-chevron-down fundo-secundario"></i>
+          
+        </a>
+        
+          <ul class="nivel-dois borda-alpha">
+            
+
+  <li class="categoria-id-22556822 ">
+    <a href="https://www.marthafreirestore.com.br/notificacao" title="Notificação">
+      
+      Notificação
+    </a>
+    
+  </li>
+
+  <li class="categoria-id-23118202 ">
+    <a href="https://www.marthafreirestore.com.br/ofertas" title="Ofertas">
+      
+      Ofertas
+    </a>
+    
+  </li>
+
+
+          </ul>
+        
+      </li>
+    
+  </ul>
+</div>
+
+    
+  
+
+
+  </div>
+  <span id="delimitadorBarra"></span>
+</div>
+
+          
+
+
+        
+      
+
+      
+
+      <div id="corpo">
+        <div class="conteiner">
+          
+
+          
+
+          
+            <div class="secao-principal row-fluid sem-coluna">
+              
+
+              
+  
+  
+    <div class="finalizar-compra">
+      <div class="cabecalho-interno row-fluid">
+        <div class="span12">
+          
+            <h1 class="titulo cor-secundaria">
+              Carrinho <small> Clique em finalizar compra para efetuar o seu pedido.</small>
+            </h1>
+          
+        </div>
+              
+      </div>
+
+      <div class="caixa-sombreada">
+        
+
+        <table class="table tabela-carrinho border-alpha">
+          <thead class="">
+            <th colspan="2" width="45%">
+              <h6 class="cor-secundaria">Produto</h6>
+            </th>
+            <th width="15%">
+              <h6 class="cor-secundaria">Quantidade</h6>
+            </th>
+            
+              <th width="15%">
+                <h6 class="cor-secundaria">Preço</h6>
+              </th>
+            
+            <th width="10%">
+              <h6 class="cor-secundaria">Excluir</h6>
+            </th>
+          </thead>
+          
+            <tr data-produto-id="284816974" data-produto-quantidade="1">
+              <td class="sem-borda conteiner-imagem">
+                <div class="imagem">
+                  
+                  <a href="https://www.marthafreirestore.com.br/conjunto-de-saia-e-blusa-adam-s-garden">
+                    <img src="https://cdn.awsli.com.br/64x64/2709/2709871/produto/284807625/conjuntos-saias-em-estampas-maravilhosas-para-voc-s-em-tamanhos-m-g--2--bpzw8cugud.jpg" alt="Conjunto Encanto de Saia e Blusa" />
+                  </a>
+                  
+                </div>
+              </td>
+              <td class="sem-borda">
+                
+                <div class="produto-info">
+                  
+                  
+                    <a href="https://www.marthafreirestore.com.br/conjunto-de-saia-e-blusa-adam-s-garden" class="cor-secundaria">
+                      Conjunto Encanto de Saia e Blusa
+                    </a>
+                  
+                  
+                  <ul>
+                    <li>
+                      <span>
+                        SKU:
+                        <strong>
+                          CONJ-9112VM-M
+                        </strong>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        Estoque:
+                        <strong>
+                          Disponível
+                        </strong>
+                      </span>
+                    </li>
+                    
+                          
+                            <li>
+                              <span>
+                                Produto com uma cor:
+                                
+                                  <span class="atributo-cor-carrinho">
+                                    <span style="background-color: #A72525;"></span>
+                                    
+                                  </span>
+                                
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <span>
+                                Tamanho:
+                                
+                                  <strong>M</strong>
+                                
+                              </span>
+                            </li>
+                          
+                        
+                  </ul>
+                </div>
+              </td>
+              <td class="clearfix">
+                <form action="https://www.marthafreirestore.com.br/carrinho/produto/284816974/atualizar" method="post">
+                  <div class="quantidade">
+                    <a href="https://www.marthafreirestore.com.br/carrinho/produto/284816974/atualizar/0/1" class="cor-secundaria icon-minus"></a>
+                    <input type="hidden" name="quantidade_atual" value="1" />
+                    <input type="text" class="input-mini" name="quantidade" value="1" autocomplete="off"/>
+                    <a href="https://www.marthafreirestore.com.br/carrinho/produto/284816974/atualizar/2/1" class="cor-secundaria icon-plus"></a>
+                    <button class="botao principal pequeno atualizar-quantidade">Atualizar quantidade</button>
+                  </div>
+                </form>
+              </td>
+              
+              <td class="col-item-unit-price" data-item-unit-valor="264.17">
+                <div class="preco-produto">
+                  <strong class="preco-promocional cor-principal titulo">
+                    
+
+
+  
+    <div class="preco-produto destaque-preco ">
+      
+        
+          
+            
+              <div>
+                <s class="preco-venda titulo">
+                  R$ 389,90
+                </s>
+                <strong class="preco-promocional cor-principal titulo">
+                  R$ 264,17
+                </strong>
+              </div>
+            
+          
+        
+      
+    </div>
+  
+
+
+                  </strong>
+                </div>
+              </td>
+              
+              <td>
+                <div class="excluir">
+                  <a href="https://www.marthafreirestore.com.br/carrinho/produto/284816974/remover" class="icon-trash cor-secundaria"></a>
+                </div>
+              </td>
+            </tr>
+          
+            <tr data-produto-id="355882615" data-produto-quantidade="1">
+              <td class="sem-borda conteiner-imagem">
+                <div class="imagem">
+                  
+                  <a href="https://www.marthafreirestore.com.br/conjunto-palms-de-saia-e-blusa">
+                    <img src="https://cdn.awsli.com.br/64x64/2709/2709871/produto/355882612/488834691_18267313693260136_6263025052661800604_n--jl77jvqgoh.jpg" alt="Conjunto Palms de Saía e Blusa" />
+                  </a>
+                  
+                </div>
+              </td>
+              <td class="sem-borda">
+                
+                <div class="produto-info">
+                  
+                  
+                    <a href="https://www.marthafreirestore.com.br/conjunto-palms-de-saia-e-blusa" class="cor-secundaria">
+                      Conjunto Palms de Saía e Blusa
+                    </a>
+                  
+                  
+                  <ul>
+                    <li>
+                      <span>
+                        SKU:
+                        <strong>
+                          CON-3115-m
+                        </strong>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        Estoque:
+                        <strong>
+                          Disponível
+                        </strong>
+                      </span>
+                    </li>
+                    
+                          
+                            <li>
+                              <span>
+                                Tamanho:
+                                
+                                  <strong>M</strong>
+                                
+                              </span>
+                            </li>
+                          
+                        
+                  </ul>
+                </div>
+              </td>
+              <td class="clearfix">
+                <form action="https://www.marthafreirestore.com.br/carrinho/produto/355882615/atualizar" method="post">
+                  <div class="quantidade">
+                    <a href="https://www.marthafreirestore.com.br/carrinho/produto/355882615/atualizar/0/1" class="cor-secundaria icon-minus"></a>
+                    <input type="hidden" name="quantidade_atual" value="1" />
+                    <input type="text" class="input-mini" name="quantidade" value="1" autocomplete="off"/>
+                    <a href="https://www.marthafreirestore.com.br/carrinho/produto/355882615/atualizar/2/1" class="cor-secundaria icon-plus"></a>
+                    <button class="botao principal pequeno atualizar-quantidade">Atualizar quantidade</button>
+                  </div>
+                </form>
+              </td>
+              
+              <td class="col-item-unit-price" data-item-unit-valor="264.17">
+                <div class="preco-produto">
+                  <strong class="preco-promocional cor-principal titulo">
+                    
+
+
+  
+    <div class="preco-produto destaque-preco ">
+      
+        
+          
+            
+              <div>
+                <s class="preco-venda titulo">
+                  R$ 389,90
+                </s>
+                <strong class="preco-promocional cor-principal titulo">
+                  R$ 264,17
+                </strong>
+              </div>
+            
+          
+        
+      
+    </div>
+  
+
+
+                  </strong>
+                </div>
+              </td>
+              
+              <td>
+                <div class="excluir">
+                  <a href="https://www.marthafreirestore.com.br/carrinho/produto/355882615/remover" class="icon-trash cor-secundaria"></a>
+                </div>
+              </td>
+            </tr>
+          
+
+          
+
+          
+            <tr class="hidden-phone bg-dark">
+              <td colspan="3">&nbsp;</td>
+              
+                <td colspan="3">
+                  <div class="subtotal">
+                    <span>Subtotal: </span>
+                    <strong class="titulo cor-principal valor-subtotal" data-subtotal-valor="528.34">
+                      R$ 528,34
+                    </strong>
+                  </div>
+                </td>
+              
+            </tr>
+          
+
+          
+
+          
+            <tr class="bg-dark">
+              <td colspan="3">
+                <form class="form-horizontal" id="formCalcularFrete">
+                  <div class="control-group">
+                    <label class="control-label text-right control-frete" for="calcularFrete">
+                      <b class="text-right">Calcule o frete:</b>
+                    </label>
+                    <div class="controls text-left">
+                      <div class="input-append">
+                        <input type="tel" name="cep_destino" id="calcularFrete" class="input-small input-cep" value="06384515" data-cep-usuario="06384515">
+                        <button class="btn" id="btn-frete"><i class="icon-truck"></i>Calcular</button>
+                      </div>
+                      <span class="help-inline ">
+                        <a href="https://www.marthafreirestore.com.br/nao_sei_o_cep/" target="_blank"><i class="icon-question-sign"></i>Não sei meu CEP</a>
+                      </span>
+                    </div>
+                  </div>
+                </form>
+              </td>
+              <td colspan="2">
+                <div class="formas-envio">
+                  <ul>
+                  </ul>
+                  
+                </div>
+              </td>
+            </tr>
+
+            <tr class="bg-dark possui-cupom">
+              
+                
+                  <td colspan="3">
+                    <div class="cupom-sucesso">
+                      <b class="">Cupom de desconto:</b>
+                      <span class="cupom-codigo borda-alpha">BEMVINDA</span>
+                      <a href="https://www.marthafreirestore.com.br/carrinho/cupom/remover?cupom=BEMVINDA" class="text-error icon-remove remover-cupom" title="Remover cupom"></a>
+                      <br/>
+                      <small class="muted">(Alguns cupons não são cumulativos com promoções.)</small>
+                      <input type="hidden" value="BEMVINDA" />
+                    </div>
+                  </td>
+
+                  
+                    <td colspan="3">
+                      <div class="cupom-valor">
+                        
+                        Cupom ativo
+                        <strong>5% </strong>
+                        :
+                        <strong id="cupom_desconto" data-cupom-desconto-codigo="BEMVINDA" class="cor-principal" data-desconto-valor="5.0" data-desconto-tipo="valor" data-desconto-aplicar-no-total="não">
+                          
+                          - R$ <span id="cupom_valor_real" data-desconto-valor-real="26.42">26,42</span>
+                          
+                        </strong>
+                        
+                          <br/>
+                            <small class="muted">(frete não incluso)</small>
+                          
+                        
+                      </div>
+                    </td>
+                  
+                
+              
+            </tr>
+          
+
+          
+            <tr class="bg-dark">
+              <td colspan="6" class="line-18">
+                <div class="total">
+                  <span>Total:</span>
+                  <strong class="titulo cor-principal valor-total" data-total-valor="510,66">
+                    R$ 510,66
+                  </strong>
+                </div>
+                <div class="valores-descontos">
+                  
+
+  
+    
+    
+      
+        
+          <div class="descontos avista">
+            <span>
+              
+                via Pix
+              
+              por <strong class="cor-principal titulo font-15">R$ 459,59</strong> com <strong>10% de desconto</strong>
+            </span>
+          </div>
+        
+      
+    
+  
+
+
+  
+    
+      <div class="descontos parcelas">
+        <span>
+          ou em até <strong>12x</strong> de <strong>R$ 42,55</strong> sem juros
+        </span>
+      </div>
+    
+  
+
+
+                </div>
+              </td>
+            </tr>
+          
+        </table>
+      </div>
+
+      
+        
+
+
+    <div id="li-box-payment-minimum-value" data-value="0" class="alert" style="display: none;font-size: 14px; padding: 10px; text-align: center;">
+        <i class="icon-info-sign"></i>
+        <strong style="color: #ae8640;">
+            Adicione mais
+            <span class="li-box-payment-minimum-value-left">
+                R$-.510,66
+            </span>
+            ao carrinho
+        </strong>
+        para poder finalizar a compra.
+    </div>
+
+
+      
+
+      <form action="https://www.marthafreirestore.com.br/checkout/redirect/" method="post">
+        <div class="acao-editar row-fluid">
+          <div class="span12">
+            
+              <a href="https://www.marthafreirestore.com.br/" class="botao">Continuar comprando</a>
+            
+            
+              
+                <button class="botao principal grande"><i class="icon-ok"></i>Finalizar compra</button>
+              
+            
+          </div>
+          
+           <div class="selo-ssl hidden-phone">
+             <img src="https://cdn.awsli.com.br/production/static/img/struct/stamp_encryptssl_cart.png" alt="Compra 100% Segura" />
+           </div>
+          
+        </div>
+      </form>
+    </div>
+  
+
+  
+
+
+              
+            </div>
+          
+          <div class="secao-secundaria">
+            
+            
+          </div>
+        </div>
+      </div>
+
+      
+        
+      
+
+      
+  
+<div id="rodape">
+    
+  <div style="background-color: #fff; border-top: 1px solid #ddd; position: relative; z-index: 10; font-size: 11px; display: block !important;">
+    <div class="conteiner">
+      <div class="row-fluid">
+        <div class="span9 span12" style="text-align: center; min-height: 20px; width: 100%;">
+          <p style="margin-bottom: 0;">
+            
+              Martha Freire Store - CNPJ: 17.770.258/0001-70
+            
+            
+            &copy; Todos os direitos reservados. 2025
+          </p>
+        </div>
+        
+        <div style="min-height: 30px; text-align: center; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; float: left; opacity: 1 !important; display: block !important; visibility: visible !important; height: 40px !important; width: 100% !important; margin: 0 !important; position: static !important;">
+          <a href="https://www.lojaintegrada.com.br?utm_source=lojas&utm_medium=rodape&utm_campaign=marthafreirestore.com.br" title="Loja Integrada - Plataforma de loja virtual." target="_blank" style="opacity: 1 !important; display: inline-block !important; visibility: visible !important; margin: 0 !important; position: static !important; overflow: visible !important;">
+            <img loading="lazy" src="https://cdn.awsli.com.br/production/static/whitelabel/lojaintegrada/img/logo-rodape-loja-pro.png?v=3db48ec" alt="Logomarca Loja Integrada" style="opacity: 1 !important; display: inline !important; visibility: visible !important; margin: 0 !important; position: static !important; max-width: 1000px !important; max-height: 1000px !important; width: auto !important; height: auto !important;" />
+          </a>
+        </div>
+        
+        
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  
+    
+  
+
+    </div>
+
+    
+<div id="barraTopo" class="hidden-phone">
+  <div class="conteiner">
+    <div class="row-fluid">
+      <div class="span3 hidden-phone">
+        <h4 class="titulo">
+          <a href="https://www.marthafreirestore.com.br/" title="Martha Freire Store" class="cor-secundaria">Martha Freire Store</a>
+        </h4>
+      </div>
+      <div class="span3 hidden-phone">
+        <div class="canais-contato">
+          <ul>
+            <li><a href="#modalContato" data-toggle="modal" data-target="#modalContato">
+              <i class="icon-comment"></i>Fale Conosco</a>
+            </li>
+            
+              <li>
+                <a href="#modalContato" data-toggle="modal" data-target="#modalContato">
+                  <i class="icon-phone"></i>Tel: (11) 94649-1023
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="span6">
+        <div class="row-fluid">
+          <div class="busca borda-alpha span6">
+            <form action="/buscar" method="get">
+              <input type="text" name="q" placeholder="Digite o que você procura" maxlength="255" />
+              <button class="botao botao-busca botao-input icon-search fundo-secundario" aria-label="Buscar"></button>
+            </form>
+          </div>
+          
+            <div class="span6 hidden-phone">
+              
+
+  <div class="carrinho vazio">
+    
+      <a href="https://www.marthafreirestore.com.br/carrinho/index">
+        <i class="icon-shopping-cart fundo-principal"></i>
+        <strong class="qtd-carrinho titulo cor-secundaria" style="display: none;">00</strong>
+        <span style="display: none;">
+          
+            <b class="titulo cor-secundaria"><span>Produtos no carrinho</span></b>
+          
+        </span>
+        
+          <span class="titulo cor-secundaria vazio-text">Carrinho vazio</span>
+        
+      </a>
+    
+    <div class="carrinho-interno-ajax"></div>
+  </div>
+  
+<div class="minicart-placeholder" style="display: none;">
+  <div class="carrinho-interno borda-principal">
+    <ul>
+      <li class="minicart-item-modelo">
+        
+          <div class="preco-produto com-promocao destaque-preco ">
+            <div>
+              <s class="preco-venda">
+                R$ --PRODUTO_PRECO_DE--
+              </s>
+              <strong class="preco-promocional cor-principal">
+                R$ --PRODUTO_PRECO_POR--
+              </strong>
+            </div>
+          </div>
+        
+        <a data-href="--PRODUTO_URL--" class="imagem-produto">
+          <img data-src="https://cdn.awsli.com.br/64x64/--PRODUTO_IMAGEM--" alt="--PRODUTO_NOME--" />
+        </a>
+        <a data-href="--PRODUTO_URL--" class="nome-produto cor-secundaria">
+          --PRODUTO_NOME--
+        </a>
+        <div class="produto-sku hide">--PRODUTO_SKU--</div>
+      </li>
+    </ul>
+    <div class="carrinho-rodape">
+      <span class="carrinho-info">
+        
+          <i>--CARRINHO_QUANTIDADE-- produto no carrinho</i>
+        
+        
+          
+            <span class="carrino-total">
+              Total: <strong class="titulo cor-principal">R$ --CARRINHO_TOTAL_ITENS--</strong>
+            </span>
+          
+        
+      </span>
+      <a href="https://www.marthafreirestore.com.br/carrinho/index" class="botao principal">
+        
+          <i class="icon-shopping-cart"></i>Ir para o carrinho
+        
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!--googleoff: all-->
+
+    <div id="modalWindow" class="modal hide">
+      <div class="modal-body">
+        <div class="modal-body">
+          Carregando conteúdo, aguarde...
+        </div>
+      </div>
+    </div>
+
+    <div id="modalAlerta" class="modal hide">
+      <div class="modal-body"></div>
+      <div class="modal-footer">
+        <a href="" data-dismiss="modal" class="botao principal" rel="nofollow">Fechar</a>
+      </div>
+    </div>
+
+    <div id="modalContato" class="modal hide" tabindex="-1" aria-labelledby="modalContatoLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></button>
+        <span class="titulo cor-secundaria">Fale Conosco</span>
+        Preencha o formulário abaixo.
+      </div>
+      <form action="/contato/popup/" method="post" class="form-horizontal">
+        <div class="modal-body borda-principal">
+          <div class="contato-loading">
+            <i class="icon-spin icon-refresh"></i>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    
+
+    
+      <div id="AdicionarFavoritoSucessoModal" class="modal hide" aria-modal="true" tabindex="-1" role="dialog">
+        <div class="modal-header">
+          <span>Favorito adicionado</span>
+        </div>
+        <div class="modal-body">
+          O produto foi adicionado com sucesso à sua <strong>Lista de Desejos</strong>.
+        </div>
+        <div class="modal-footer">
+          <a class="botao" data-dismiss="modal" aria-hidden="true">Fechar</a>
+          <a class="botao principal" href="https://www.marthafreirestore.com.br/conta/favorito/listar">Visualizar Lista de Desejos</a>
+        </div>
+      </div>
+
+      <div id="AdicionarFavoritoErroModal" class="modal hide" aria-modal="true" tabindex="-1" role="dialog">
+        <div class="modal-header">
+          <span class="titulo cor-secundaria">Erro ao adicionar favorito</span>
+        </div>
+        <div class="modal-body">
+          <p>
+            O produto não foi adicionado com sucesso ao seus favoritos, por favor tente mais tarde.
+            <a href="https://www.marthafreirestore.com.br/conta/favorito/listar">Visualizar a lista de favoritos</a>.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a class="botao" data-dismiss="modal" aria-hidden="true">Fechar</a>
+          <a class='botao principal' style="display: none;" id="AdicionarFavoritoLogin">Logar</a>
+        </div>
+      </div>
+    
+
+    
+      <div id="comprar-ajax-status" style="display: none;">
+        <div class="sucesso">
+          <div id="carrinho-mini" class="hidden-phone"></div>
+          <div class="head visible-phone">Produto adicionado com sucesso!</div>
+          <div class="buttons ">
+            <a href="javascript:$.fancybox.close();" class="botao continuar-comprando">Continuar comprando</a>
+            <a href="https://www.marthafreirestore.com.br/checkout" class="botao principal ir-carrinho hidden-phone"><i class="icon-shopping-cart"></i>Finalizar compra</a>
+            <a href="https://www.marthafreirestore.com.br/carrinho/index" class="botao principal ir-carrinho visible-phone"><i class="icon-shopping-cart"></i>Ir para o carrinho</a>
+          </div>
+        </div>
+        <div class="erro" style="display: none;">
+          <span class="msg">
+            Não foi possível adicionar o produto ao carrinho<br />
+            <strong>Tente novamente</strong>
+          </span>
+        </div>
+      </div>
+    
+
+    
+
+<div id="avise-me-cadastro" style="display: none;">
+  
+
+  <div class="avise-me">
+    <form action="" method="POST" class="avise-me-form">
+      <span class="avise-tit">
+        Ops!
+      </span>
+      <span class="avise-descr">
+        Esse produto encontra-se indisponível.<br />
+        Deixe seu e-mail que avisaremos quando chegar.
+      </span>
+      <div class="avise-input">
+        <div class="controls controls-row">
+          <input class="span5 avise-nome" name="avise-nome" type="text" placeholder="Digite seu nome" />
+          <label class="span7">
+            <i class="icon-envelope avise-icon"></i>
+            <input class="span12 avise-email" name="avise-email" type="email" placeholder="Digite seu e-mail" />
+          </label>
+        </div>
+      </div>
+      <div class="avise-btn">
+        <input type="submit" value="Avise-me quando disponível" class="botao fundo-secundario btn-block" />
+      </div>
+    </form>
+  </div>
+
+
+</div>
+
+<div id="avise-me-sucesso" style="display: none;">
+  <span class="avise-suc-tit cor-principal">
+    Obrigado!
+  </span>
+  <span class="avise-suc-descr">
+    Você receberá um e-mail de notificação, assim que esse produto estiver disponível em estoque
+  </span>
+</div>
+
+
+    
+
+    
+    
+
+
+
+
+    
+    
+
+
+  
+
+
+
+    
+    
+
+
+
+    <!--googleon: all-->
+
+    
+
+    
+      
+        
+          <script>
+  dataLayer = [{
+    'pageTitle': document.title,
+    'pageUrl': window.location.href,
+    'email': '',
+    
+    
+    
+    
+      
+        'PageType': 'BasketPage',
+        'ProductBasketProducts': [
+          
+          {
+            'name': 'Conjunto Palms de Saía e Blusa',
+            'id': 'CON-3115-m',
+            'price': '264.17',
+            'quantity': 1
+          }, 
+          
+          {
+            'name': 'Conjunto Encanto de Saia e Blusa',
+            'id': 'CONJ-9112VM-M',
+            'price': '264.17',
+            'quantity': 1
+          }
+          
+        ]
+      
+    
+    
+  }];
+  
+    
+      dataLayer.push({
+        'event': 'checkout',
+        'ecommerce': {
+          'checkout': {
+            
+              'actionField': {'step': 1, 'option': 'Cart'},
+            
+            'products': [
+              
+              {
+                'name': 'Conjunto Palms de Saía e Blusa',
+                'id': 'CON-3115-m',
+                'price': '264.17',
+                'quantity': 1
+              }, 
+              
+              {
+                'name': 'Conjunto Encanto de Saia e Blusa',
+                'id': 'CONJ-9112VM-M',
+                'price': '264.17',
+                'quantity': 1
+              }
+              
+            ]
+          }
+        }
+      });
+</script>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-1"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-1');</script>
+<!-- End Google Tag Manager -->
+        
+      
+        
+          <script type="text/javascript">
+      var hasInitializedGoogleAuth = false;
+      var btnsAuthGoogle = $('.button-auth-google');
+
+      function urlToValidate(fromOneTap = false) {
+        var actualUrl = new URL(window.location.href);
+        var next = actualUrl.searchParams.get('next');
+
+        if (!next) {
+          if (!btnsAuthGoogle.is(':visible'))
+            next = actualUrl.pathname
+
+
+          if (!fromOneTap && btnsAuthGoogle.eq(0).hasClass('to-checkout'))
+            next = '/checkout'
+
+          if (actualUrl.pathname.includes('checkout'))
+            next = actualUrl.pathname
+        }
+
+        actualUrl.searchParams.append('metodo', 'google');
+        if (!next) {
+          actualUrl.searchParams.append('next', '/conta/index' + actualUrl.search);
+        } else {
+          actualUrl.searchParams.delete('next');
+          actualUrl.searchParams.append('next', next + actualUrl.search);
+        }
+        actualUrl.searchParams.delete('metodo');
+        return 'https://www.marthafreirestore.com.br/conta/login/google' + actualUrl.search
+      }
+
+      function addGsiScript(callbackOnLoadGsi) {
+        if (!document.getElementById('script_gsi')) {
+          const script = document.createElement('script');
+          script.src = 'https://accounts.google.com/gsi/client';
+          script.id = 'script_gsi';
+          script.async = true;
+          script.defer = true;
+          script.addEventListener('load', callbackOnLoadGsi);
+          document.body.appendChild(script);
+        }
+      }
+
+      function renderGoogleAuthButtons() {
+        if (btnsAuthGoogle.length > 0) {
+          btnsAuthGoogle.each(function() {
+            var rendered = $(this).data('rendered') || false;
+            var action = $(this).data('action');
+            var width = parseInt("220") || 200;
+            if (!rendered) {
+              google.accounts.id.renderButton(
+                this,
+                {
+                  type: "standard",
+                  shape: "pill",
+                  theme: "outline",
+                  text: action,
+                  size: "large",
+                  width,
+                }
+              );
+              $(this).data('rendered', true);
+            }
+          });
+        }
+      }
+
+      function onSuccessGoogleAuth(data) {
+        const ot_form = document.createElement('form');
+        const fromOnetap = data.hasOwnProperty('select_by') && !data.select_by.includes('btn');
+        ot_form.id = 'google_auth';
+        ot_form.action = urlToValidate(fromOnetap);
+        ot_form.method = 'POST';
+        for (let item in data) {
+            const input = document.createElement('input');
+            input.type = 'hidden';
+            input.name = item;
+            input.value = data[item];
+            ot_form.appendChild(input);
+        }
+        document.body.appendChild(ot_form);
+        ot_form.submit();
+      }
+
+      function initializeGoogleAuth(withOneTap = false) {
+        if (!hasInitializedGoogleAuth && (btnsAuthGoogle.length > 0 || withOneTap)) {
+          function callbackOnLoadGsi() {
+            var params = {
+              client_id: '385166315128-21631bsbvhj3je807i9e1c7pp1rskgik.apps.googleusercontent.com',
+              context: 'signin',
+              ux_mode: 'popup',
+              callback: onSuccessGoogleAuth,
+              login_uri: urlToValidate(),
+            }
+
+            if (withOneTap) {
+              params['itp_support'] = true
+              params['cancel_on_tap_outside'] = false
+            }
+
+            google.accounts.id.initialize(params);
+            hasInitializedGoogleAuth = true;
+
+            if (btnsAuthGoogle.length > 0) {
+              renderGoogleAuthButtons();
+            }
+
+            if (withOneTap && !btnsAuthGoogle.is(':visible')) {
+              google.accounts.id.prompt();
+            }
+          }
+          addGsiScript(callbackOnLoadGsi);
+        }
+      }
+
+      
+        
+            $(function() {
+              if (!btnsAuthGoogle.is(':visible')) {
+                
+                  $('body').on('user_state_changed', function(e, params) {
+                    var isLogged = (params && params.logged) || false;
+                    if (!isLogged) {
+                      initializeGoogleAuth(true);
+                    }
+                  });
+                
+              } else {
+                initializeGoogleAuth();
+              }
+            });
+        
+      
+    </script>
+        
+      
+        
+          
+        
+      
+    
+
+    
+
+    
+	<!-- Remover Sidebar do Carrinho -->
+  
+      <!-- =========================
+     DESATIVA WIDGET DE SUGESTÕES
+     Para usar apenas na página de checkout
+   ========================= -->
+
+<style>
+  /* Garante ocultação imediata caso o HTML do widget já exista */
+  #mf-float-btn,
+  #mf-overlay,
+  #mf-sidebar {
+    display: none !important;
+  }
+</style>
+
+<script>
+  // Espera o DOM carregar para remover qualquer elemento existente
+  document.addEventListener('DOMContentLoaded', () => {
+    ['mf-float-btn', 'mf-overlay', 'mf-sidebar'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.remove();
+    });
+    // Opcional: impede que o JS do widget seja executado após este ponto
+    // redefinindo suas funções para noop
+    window.openSidebar = window.openSidebar?.bind(null) || function(){};
+    window.closeSidebar = window.closeSidebar?.bind(null) || function(){};
+  });
+</script>
+
+  
+
+	<!-- Loggi Express - Carrinho -->
+  
+    <script type="text/javascript" charset="utf-8">
+      $(function(){
+	$('.formas-envio li span.nome').each(function(i,e) {
+		e=$(e);
+		if(e.text() == 'Transportadora') {
+			e.text('Jadlog');
+		}
+	});
+	$(document).ajaxStop(function() {
+		$('.formas-envio li span.nome').each(function(i,e) {
+            e=$(e);
+            if(e.text() == 'Transportadora') {
+                e.text('Loggi Express');
+            }
+        });
+    });
+});
+$(function() {
+  $('#formCalcularCep label[for="CEP"]').text('Calcule o Frete e Prazo');
+  $('.input-cep').attr('placeholder', 'Digite Seu CEP Aqui');
+});
+document.addEventListener('DOMContentLoaded', function() {
+  // 1. Muda o texto do label em negrito
+  var labelBold = document.querySelector('.control-frete b');
+  if (labelBold) {
+    labelBold.textContent = 'Calcule o Prazo:';
+  }
+
+  // 2. Atualiza o placeholder do input
+  var cepInput = document.getElementById('calcularFrete');
+  if (cepInput) {
+    cepInput.placeholder = 'Digite seu CEP';
+  }
+});
+    </script>
+  
+
+	<!-- Adequação Cart Layout [JS] -->
+  
+    <script type="text/javascript" charset="utf-8">
+      document.querySelector("#btn-frete").innerHTML = "OK"
+    </script>
+  
+
+	<!-- Oculta atributos no carrinho -->
+  
+    <style type="text/css">
+      .tabela-carrinho .produto-info li:nth-child(1), .tabela-carrinho .produto-info li:nth-child(2){
+    display: none;
+}
+    </style>
+  
+
+	<!-- Novo layout produto no carrinho -->
+  
+    <script type="text/javascript" charset="utf-8">
+      // document.querySelectorAll(".tabela-carrinho .produto-info li").forEach((li) => {
+//     let span = li.querySelector("span")
+//     if (span.textContent.includes("Cód:") || span.textContent.includes("Estoque:")) {
+//       span.style.display= "none"; // Aplica o estilo desejado
+//     }
+// });
+
+function applyNewLayout(row) {
+    // Salva o estado original do elemento tr
+    const originalRowHTML = row.innerHTML;
+
+    // Seleciona todos os tds da linha
+    const tds = row.querySelectorAll('td:not(.hidden-phone)'); // Exclui tds com a classe 'hidden-phone'
+
+    // Cria as novas divs
+    const firstTdDiv = document.createElement('div');
+    firstTdDiv.className = 'first-td-div';
+    firstTdDiv.innerHTML = tds[0].innerHTML;
+
+    const otherTdsDiv = document.createElement('div');
+    otherTdsDiv.className = 'other-tds-div';
+    otherTdsDiv.style.display = 'flex';
+    otherTdsDiv.style.flexDirection = 'column';
+    otherTdsDiv.style.justifyContent = 'space-between';
+    otherTdsDiv.style.width = '100%';
+
+    const groupedDiv = document.createElement('div');
+    groupedDiv.className = 'grouped-tds-div';
+    groupedDiv.style.display = 'flex';
+    groupedDiv.style.gap = '5px';
+    groupedDiv.style.alignItems = 'center';
+    groupedDiv.style.justifyContent = 'space-around';
+
+    // Move o conteúdo dos tds para as novas divs
+    for (let i = 1; i < tds.length; i++) {
+        const div = document.createElement('div');
+        div.className = `td-${i + 1}`;
+        div.innerHTML = tds[i].innerHTML;
+        (i >= 2 ? groupedDiv : otherTdsDiv).appendChild(div);
+    }
+
+    otherTdsDiv.appendChild(groupedDiv);
+
+    // Cria um novo td para adicionar as divs
+    const newTd = document.createElement('td');
+    newTd.style.display = 'flex';
+    newTd.append(firstTdDiv, otherTdsDiv);
+
+    // Aplica o novo layout à linha
+    row.style.display = 'flex';
+    row.style.flexDirection = 'column';
+    row.appendChild(newTd);
+
+    // Remove os tds antigos
+    tds.forEach(td => td.remove());
+
+    // Retorna a função de restauração para o estado original
+    return function restoreOriginalLayout() {
+        row.innerHTML = originalRowHTML;
+        row.style.display = ''; // Remove a estilização aplicada anteriormente
+    };
+}
+
+// Função para alternar entre o novo layout e o original com base no tamanho da tela
+function handleResponsiveLayout() {
+    const rows = document.querySelectorAll('tr[data-produto-id]');
+    const restoreFunctions = [];
+
+    function applyOrRestoreLayout() {
+        if (window.innerWidth < 768) {
+            rows.forEach((row, index) => {
+                if (!restoreFunctions[index]) {
+                    restoreFunctions[index] = applyNewLayout(row);
+                }
+            });
+        } else {
+            restoreFunctions.forEach((restoreOriginal, index) => {
+                if (restoreOriginal) {
+                    restoreOriginal();
+                    restoreFunctions[index] = null;
+                }
+            });
+        }
+    }
+
+    // Aplica ou restaura o layout ao carregar a página
+    applyOrRestoreLayout();
+
+    // Adiciona um listener para aplicar/restaurar o layout ao redimensionar a tela
+    window.addEventListener('resize', applyOrRestoreLayout);
+    window.addEventListener('load', applyOrRestoreLayout);
+}
+
+// Chama a função de layout responsivo ao carregar a página
+handleResponsiveLayout();
+    </script>
+  
+
+	<!-- Remover Loading Carrinho -->
+  
+      <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Função que esconde todos os possíveis overlays/modais “fantasmas”
+    function esconderOverlays() {
+      // IDs e seletores que costumam ficar cobrindo a tela após o carregamento
+      var ids = [
+        'full-page-loading',
+        'mf-overlay',
+        'mf-sidebar',
+        'overlay',
+        'wheel-popup',
+        'modalWindow',
+        'modalAlerta',
+        'modalContato'
+      ];
+      ids.forEach(function(id) {
+        var el = document.getElementById(id);
+        if (el) {
+          el.style.display = 'none';
+          el.style.pointerEvents = 'none';
+        }
+      });
+      // Também cobre classes genéricas de overlay/modal
+      document.querySelectorAll(
+        '.modal, ' +
+        '.modal-backdrop, ' +
+        '.fancybox-overlay, ' +
+        '.fancybox-wrap'
+      ).forEach(function(el) {
+        el.style.display = 'none';
+        el.style.pointerEvents = 'none';
+      });
+
+      // Garante scroll/touch no <html> e <body>
+      document.documentElement.style.overflowY = 'auto';
+      document.body.style.overflowY = 'auto';
+      document.documentElement.style.touchAction = 'auto';
+      document.body.style.touchAction = 'auto';
+    }
+
+    // Chama uma vez logo que o DOM estiver pronto
+    esconderOverlays();
+
+    // Em alguns casos, scripts de carrinho podem recriar overlays depois.
+    // O setInterval verifica a cada segundo (1000ms) e reaplica o hide.
+    setInterval(esconderOverlays, 1000);
+  });
+</script>
+
+  
+
+	<!-- Botão Flutuante Carrinho -->
+  
+      <!-- BOTÃO FLUTUANTE “Finalizar compra” -->
+<a href="javascript:;" id="botao-flutuante-carrinho" class="botao principal grande" style="display: none;">
+  <!-- Conteúdo será copiado via JavaScript -->
+</a>
+
+<style>
+  /* ==================================================
+     BOTÃO PRINCIPAL E FLUTUANTE “Finalizar compra”
+     COM EFEITO SHIMMER ANIMADO E ESTADO PRESSED
+     ================================================== */
+
+  /* 1) Garante position:relative e overflow:hidden no original e no flutuante */
+  form[action*="/checkout/redirect/"] button.botao.principal.grande,
+  #botao-flutuante-carrinho {
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* 2) Reflexo branco animado via pseudo-elemento :before */
+  form[action*="/checkout/redirect/"] button.botao.principal.grande:before,
+  #botao-flutuante-carrinho:before {
+    content: '';
+    position: absolute;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    animation: shiny-btn1 4.5s linear infinite;
+    pointer-events: none;
+  }
+
+  /* 3) Pressed state (quando clicado) */
+  form[action*="/checkout/redirect/"] button.botao.principal.grande:active,
+  #botao-flutuante-carrinho:active {
+    box-shadow:
+      4px 4px 6px 0 rgba(255, 255, 255, .3),
+      -4px -4px 6px 0 rgba(116, 125, 136, .2),
+      inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+  }
+
+  /* 4) Keyframes para o brilho longo */
+  @keyframes shiny-btn1 {
+    0%   { transform: scale(0) rotate(45deg); opacity: 0;   }
+    50%  { transform: scale(0) rotate(45deg); opacity: 0.5; }
+    51%  { transform: scale(4) rotate(45deg); opacity: 1;   }
+    100% { transform: scale(50) rotate(45deg); opacity: 0;  }
+  }
+
+  /* ------------------------------------------------
+     BOTÃO FLUTUANTE “Finalizar compra” (CARRINHO)
+     ------------------------------------------------ */
+
+  /* 1) Posição fixa colado ao rodapé da VIEWPORT (20px acima) */
+  #botao-flutuante-carrinho {
+    position: fixed;
+    bottom: 20px;     /* 20px acima do rodapé da viewport */
+    left: 50%;
+    transform: translate(-50%, 100%);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 9999;
+
+    /* Herda largura mínima/padding padrão de .botao.principal.grande */
+    min-width: 180px;
+    transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+  }
+  /* 2) Quando visível, “sobe” para dentro da viewport */
+  #botao-flutuante-carrinho.visivel {
+    transform: translate(-50%, 0);
+    opacity: 0.95;
+    pointer-events: auto;
+  }
+  /* 3) Hover para opacidade total */
+  #botao-flutuante-carrinho:hover {
+    opacity: 1;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Localiza o botão “Finalizar compra” original
+    function pegaOriginal() {
+      return document.querySelector(
+        'form[action*="/checkout/redirect/"] button.botao.principal.grande'
+      );
+    }
+
+    var floatBtn = document.getElementById('botao-flutuante-carrinho');
+    if (!floatBtn) return;
+
+    var original = pegaOriginal();
+    if (!original) return;
+
+    // Copia conteúdo (ícone + texto) do botão original para o flutuante
+    floatBtn.innerHTML = original.innerHTML;
+
+    // Funções para mostrar e esconder o flutuante
+    function mostra() {
+      if (!floatBtn.classList.contains('visivel')) {
+        floatBtn.style.display = 'block';
+        requestAnimationFrame(function() {
+          floatBtn.classList.add('visivel');
+        });
+      }
+    }
+    function esconde() {
+      if (floatBtn.classList.contains('visivel')) {
+        floatBtn.classList.remove('visivel');
+        floatBtn.addEventListener('transitionend', function handler(e) {
+          if (e.propertyName === 'opacity') {
+            floatBtn.style.display = 'none';
+            floatBtn.removeEventListener('transitionend', handler);
+          }
+        });
+      }
+    }
+
+    // Verifica se o original saiu totalmente da viewport
+    function verificaVisibilidade() {
+      original = pegaOriginal();
+      if (!original) return;
+
+      var rect = original.getBoundingClientRect();
+      var foraPraCima  = rect.bottom < 0;
+      var foraPraBaixo = rect.top > window.innerHeight;
+
+      if (foraPraCima || foraPraBaixo) {
+        mostra();
+      } else {
+        esconde();
+      }
+    }
+
+    // Liga scroll e resize a essa verificação
+    window.addEventListener('scroll', verificaVisibilidade);
+    window.addEventListener('resize', verificaVisibilidade);
+    // Checagem inicial ao carregar a página
+    verificaVisibilidade();
+
+    // Ao clicar no flutuante, dispara clique no original
+    floatBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      original = pegaOriginal();
+      if (original) {
+        original.click();
+      }
+    });
+  });
+</script>
+
+  
+
+	<!-- Remover Overlay -->
+  
+      <script>
+  window.addEventListener('load', function() {
+    // Remover classe que bloqueia scroll (FancyBox)
+    document.body.classList.remove('fancybox-lock');
+    // Ocultar ou remover o elemento de carregamento
+    var overlay = document.querySelector('.fancybox-overlay, #loja-carregando');
+    if (overlay) {
+      overlay.style.display = 'none';
+      overlay.parentNode.removeChild(overlay);
+    }
+    // Reativar rolagem via CSS
+    document.documentElement.style.overflow = 'auto';
+    document.body.style.overflow = 'auto';
+  });
+</script>
+
+<!-- CÓDIGO JAVASCRIPT (inserir em Visual > Incluir código HTML, Tipo: JavaScript, Local: Rodapé, Página: Carrinho) -->
+<script>
+(function() {
+  // Função que remove o overlay e restaura scroll
+  function fixOverlay() {
+    var overlay = document.getElementById('overlay');
+    if (overlay) {
+      overlay.remove();
+      console.log('[Frete] overlay removido');
+    }
+    // Remover classes/estilos que bloqueiam scroll (ex. fancybox-lock)
+    document.documentElement.classList.remove('fancybox-lock');
+    document.body.classList.remove('fancybox-lock');
+    document.documentElement.style.overflow = '';
+    document.body.style.overflow = '';
+    document.documentElement.style.position = '';
+    document.body.style.position = '';
+  }
+
+  // Iniciar MutationObserver para detectar inserção de nodes no body
+  var observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+      mutation.addedNodes.forEach(function(node) {
+        // Se algum node adicionado é o overlay, aplicamos a correção
+        if (node.id === 'overlay') {
+          fixOverlay();
+        }
+      });
+    });
+  });
+  observer.observe(document.body, { childList: true, subtree: true });
+
+  // Também aplicar correção após qualquer requisição AJAX completa (backup)
+  if (window.jQuery) {
+    jQuery(document).on('ajaxComplete', function() {
+      fixOverlay();
+    });
+  }
+
+  // Correção inicial em caso de overlay já presente no carregamento
+  document.addEventListener('DOMContentLoaded', fixOverlay);
+})();
+</script>
+
+  
+
+	<!-- Selo Confi -->
+  
+      <ul id="selos-rodape" class="hide">
+   <li>
+       <a href="https://confi.com.vc/app/lojas-confiaveis?id=2000870" target="_blank">
+           <img class="selo-confi" src="https://cdn.confi.com.vc/reputation-256/2000870.png" alt="Selo Confi" />
+       </a>
+   </li>
+</ul>
+
+<script type="text/javascript">
+   $(document).ready(function() {
+       // Move o item da lista do selo para o rodapé
+       $('#selos-rodape li').appendTo($('#rodape .selos ul'));
+   });
+</script>
+
+<style>
+   .selos li { margin-bottom: 10px; }
+   /* Aplica largura e altura apenas à imagem do selo específico */
+   .selo-confi {
+       width: 80px;
+       height: 80px;
+   }
+</style>
+
+  
+
+	<!-- Sugestões -->
+  
+      <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sugestões Dinâmicas</title>
+  <style>
+    /* OVERLAY PARA FECHAR AO CLICAR FORA */
+    #mf-overlay {
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0,0,0,0.4);
+      z-index: 9999;
+      display: none;
+    }
+    #mf-overlay.show { display: block; }
+
+    /* FLOATING BUTTON */
+    #mf-float-btn {
+      position: fixed;
+      bottom: 225px; left: 2px;
+      width: 56px; height: 56px;
+      background: #ef476f; color: #fff;
+      border: none; border-radius: 50%;
+      font-size: 36px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; z-index: 10000;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform .3s ease;
+    }
+    #mf-float-btn:hover { transform: scale(1.1); }
+
+    /* SIDEBAR */
+    #mf-sidebar {
+      position: fixed;
+      top: 0; left: -80%;
+      width: 80%; height: 100%;
+      background: #fff;
+      box-shadow: 4px 0 12px rgba(0,0,0,0.2);
+      z-index: 10000;
+      transition: left .5s ease;
+      display: flex; flex-direction: column;
+    }
+    #mf-sidebar.open { left: 0; }
+
+    /* BANNER */
+    #mf-sidebar .mf-banner img {
+      width: 100%; display: block;
+    }
+
+    /* HEADER */
+    #mf-sidebar .mf-header {
+      padding: 8px 16px;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 1px solid #eee;
+    }
+    #mf-sidebar .mf-header h2 {
+      margin: 0; font-size: 1.1rem; font-weight: 600;
+    }
+    #mf-sidebar .mf-header button {
+      background: none; border: none; font-size: 24px; cursor: pointer;
+    }
+
+    /* TABS */
+    #mf-sidebar .mf-tabs {
+      display: flex; border-bottom: 1px solid #ddd;
+    }
+    #mf-sidebar .mf-tabs button {
+      flex: 1; padding: 12px;
+      background: none; border: none;
+      font-size: 0.9rem; cursor: pointer;
+      transition: background .2s;
+    }
+    #mf-sidebar .mf-tabs button.active {
+      background: #f5f5f5; font-weight: 600;
+    }
+
+    /* CONTENT */
+    #mf-sidebar .mf-content {
+      flex: 1; overflow-y: auto; padding: 16px;
+    }
+    #mf-sidebar .mf-list {
+      list-style: none; padding: 0; margin: 0;
+      display: none;
+    }
+    #mf-sidebar .mf-list.active {
+      display: block;
+    }
+    #mf-sidebar .mf-list li {
+      display: flex; margin-bottom: 16px;
+    }
+    #mf-sidebar .mf-list img {
+      width: 60px; height: 100px;
+      object-fit: cover; border-radius: 4px;
+      margin-right: 12px;
+    }
+    #mf-sidebar .mf-list .info {
+      flex: 1;
+    }
+    #mf-sidebar .mf-list .info h3 {
+      margin: 0 0 4px; font-size: 0.95rem;
+    }
+    #mf-sidebar .mf-list .info .price-old {
+      text-decoration: line-through; color: #ef476f;
+      font-size: 0.75rem; margin-right: 8px;
+    }
+    #mf-sidebar .mf-list .info .price-new {
+      font-weight: 600; color: #34bcac;
+      font-size: 0.85rem;
+    }
+    #mf-sidebar .mf-list .info a.btn-buy {
+      display: inline-block; margin-top: 6px;
+      padding: 6px 12px; background: #ef476f;
+      color: #fff; text-decoration: none;
+      border-radius: 4px; font-size: 0.85rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- SEU CONTEÚDO AQUI -->
+
+  <!-- OVERLAY -->
+  <div id="mf-overlay"></div>
+
+  <!-- FLOATING BUTTON -->
+  <button id="mf-float-btn" aria-label="Abrir sugestões">★</button>
+
+  <!-- SIDEBAR -->
+  <aside id="mf-sidebar" aria-hidden="true">
+    <div class="mf-banner">
+      <img src="https://cdn.awsli.com.br/2709/2709871/arquivos/mobile_160741147833283--1----copia--1-.jpg" alt="Banner"/>
+    </div>
+    <div class="mf-header">
+      <h2>★ Faça a sua escolha ★</h2>
+      <button id="mf-close-btn" aria-label="Fechar">×</button>
+    </div>
+    <div class="mf-tabs">
+      <button data-tab="desejos" class="active">Lista de Desejos</button>
+      <button data-tab="esgotando">Quase Esgotando</button>
+    </div>
+    <div class="mf-content">
+      <ul id="mf-desejos" class="mf-list active"></ul>
+      <ul id="mf-esgotando" class="mf-list"></ul>
+    </div>
+  </aside>
+
+  <script>
+    ;(function(){
+      const MAP_URL       = 'https://www.marthafreirestore.com.br/pagina/visitantes.html';
+      const MAP_CACHE_KEY = 'mf_mapData';
+      const MAP_TS_KEY    = 'mf_mapTS';
+      const MAP_TTL       = 12 * 60 * 60 * 1000; // 12h
+      const VIS_TTL       = 24 * 60 * 60 * 1000; // 24h
+      let isLoaded        = false;
+      let mapData         = [];
+
+      async function loadMap(){
+        const now = Date.now();
+        const last = parseInt(localStorage.getItem(MAP_TS_KEY),10) || 0;
+        if(now - last < MAP_TTL){
+          mapData = JSON.parse(localStorage.getItem(MAP_CACHE_KEY) || '[]');
+          return;
+        }
+        const html = await fetch(MAP_URL).then(r=> r.text());
+        const doc  = new DOMParser().parseFromString(html,'text/html');
+        mapData = Array.from(doc.querySelectorAll('table.dataframe tbody tr'))
+          .map(tr=>{
+            const td = tr.querySelectorAll('td');
+            return {
+              link:  td[0].textContent.trim(),
+              name:  td[1].textContent.trim(),
+              thumb: td[2].textContent.trim(),
+              old:   td[3].textContent.trim(),
+              neo:   td[4].textContent.trim(),
+              sep:   parseInt(td[5].textContent.trim()) || null,
+              esg:   parseInt(td[7].textContent.trim()) || null
+            };
+          });
+        localStorage.setItem(MAP_CACHE_KEY, JSON.stringify(mapData));
+        localStorage.setItem(MAP_TS_KEY, now.toString());
+      }
+
+      function getVisited(){
+        const raw = JSON.parse(localStorage.getItem('mf_visited') || '[]');
+        const now = Date.now();
+        return raw.filter(i=> now - i.ts < VIS_TTL);
+      }
+      function setVisited(slug){
+        const now = Date.now();
+        let arr = getVisited().filter(i=> i.slug !== slug);
+        arr.unshift({ slug, ts: now });
+        localStorage.setItem('mf_visited', JSON.stringify(arr));
+      }
+
+      function buildList(items){
+        const frag = document.createDocumentFragment();
+        items.forEach(p=>{
+          const li = document.createElement('li');
+          li.innerHTML = `
+            <img src="${p.thumb}" alt="${p.name}" loading="lazy">
+            <div class="info">
+              <h3>${p.name}</h3>
+              <div>
+                <span class="price-old">${p.old}</span>
+                <span class="price-new">${p.neo}</span>
+              </div>
+              <a href="${p.link}" class="btn-buy">Ver Mais</a>
+            </div>`;
+          frag.appendChild(li);
+        });
+        return frag;
+      }
+
+      async function openSidebar(){
+        sidebar.classList.add('open');
+        overlay.classList.add('show');
+        history.pushState(null,'','#sidebar');
+        if(!isLoaded){
+          await loadMap();
+          const me = location.pathname;
+          if(mapData.some(p=> p.link === me)) setVisited(me);
+          const visSlugs = getVisited().map(v=> v.slug);
+          const des = visSlugs.map(s=> mapData.find(p=> p.link===s)).filter(Boolean);
+          const esg = mapData.filter(p=> p.esg!==null).sort((a,b)=> a.esg-b.esg);
+          document.getElementById('mf-desejos').appendChild(buildList(des));
+          document.getElementById('mf-esgotando').appendChild(buildList(esg));
+          isLoaded = true;
+        }
+      }
+      function closeSidebar(){
+        sidebar.classList.remove('open');
+        overlay.classList.remove('show');
+        history.replaceState(null,'', location.pathname + location.search);
+      }
+
+      // SELECTORS
+      const sidebar = document.getElementById('mf-sidebar');
+      const overlay = document.getElementById('mf-overlay');
+      const btn     = document.getElementById('mf-float-btn');
+      const close   = document.getElementById('mf-close-btn');
+      const tabs    = Array.from(document.querySelectorAll('#mf-sidebar .mf-tabs button')); 
+      const lists   = Array.from(document.querySelectorAll('#mf-sidebar .mf-list'));
+
+      // EVENTS
+      btn.addEventListener('click', openSidebar);
+      close.addEventListener('click', closeSidebar);
+      overlay.addEventListener('click', closeSidebar);
+      window.addEventListener('popstate', ()=>{
+        if(location.hash !== '#sidebar') closeSidebar();
+      });
+
+      // TAB SWITCHING
+      tabs.forEach(tab=>{
+        tab.addEventListener('click', ()=>{
+          tabs.forEach(t=> t.classList.remove('active'));
+          lists.forEach(l=> l.classList.remove('active'));
+          tab.classList.add('active');
+          document.getElementById('mf-'+tab.dataset.tab).classList.add('active');
+        });
+      });
+
+    })();
+  </script>
+</body>
+</html>
+
+  
+
+	<!-- Roleta -->
+  
+      <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roleta Popup com Confete</title>
+
+  <!-- Pré-conexão ao Google Fonts para performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+
+  <!-- Google Font Inter -->
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" 
+    rel="stylesheet" 
+  />
+
+  <!-- Bootstrap Icons -->
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" 
+    rel="stylesheet" 
+  />
+
+  <style>
+    :root {
+      --brand-pink: #e91e63;
+      --brand-teal: #30a77e;
+      --brand-coral: #ef476f;
+      --overlay-bg: rgba(0,0,0,0.6);
+      --popup-bg: #ffffff;
+      --text-dark: #333;
+      --text-light: #fff;
+      --font-family: 'Inter', sans-serif;
+      --transition-fast: 0.3s ease;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font-family);
+      background: #f5f5f5;
+      color: var(--text-dark);
+    }
+    /* Overlay */
+    #overlay {
+      position: fixed; inset: 0;
+      background: var(--overlay-bg);
+      display: none; z-index: 1000;
+      cursor: pointer;
+    }
+    /* Botão flutuante */
+    #float-button {
+      position: fixed; bottom: 150px; left: 2px;
+      width: 56px; height: 56px;
+      background: var(--brand-pink);
+      color: var(--text-light);
+      border: none; border-radius: 50%;
+      font-size: 28px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform var(--transition-fast);
+      animation: pulse 8s infinite;
+      z-index: 1001;
+    }
+    #float-button:hover { transform: scale(1.1); }
+    @keyframes pulse {
+      0%,100% { transform: scale(1); opacity:1; }
+      50%     { transform: scale(1.1); opacity:0.9; }
+    }
+    /* Popup */
+    #wheel-popup {
+      position: fixed; top: 50%; left: 50%;
+      transform: translate(-50%,-50%);
+      width: 90vw; max-width: 320px;
+      background: var(--popup-bg);
+      border-radius: 16px;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.2);
+      padding: 24px; text-align: center;
+      display: none; z-index: 1002;
+    }
+    #wheel-popup::before {
+      content: '';
+      position: absolute; top:0; left:0; right:0;
+      height:6px;
+      background: linear-gradient(90deg,var(--brand-pink),var(--brand-coral));
+      border-top-left-radius:16px; border-top-right-radius:16px;
+    }
+    /* Close Button */
+    #close-btn {
+      position:absolute; top:12px; right:12px;
+      background:none; border:none; font-size:18px;
+      color:var(--text-dark); cursor:pointer;
+      transition: color var(--transition-fast);
+    }
+    #close-btn:hover { color: var(--brand-pink); }
+    /* Roleta */
+    #wheel {
+      position: relative;
+      width:100%; padding-top:100%; margin:16px 0;
+    }
+    #wheel canvas {
+      position:absolute; inset:0;
+      width:100%; height:100%;
+      border:8px solid var(--text-light);
+      border-radius:50%;
+      box-shadow:0 4px 12px rgba(0,0,0,0.15);
+      transition: transform 5s cubic-bezier(.18,.85,.3,1);
+      will-change: transform;
+    }
+    .pin {
+      position:absolute;
+      width:10px; height:10px;
+      background:var(--text-light);
+      border:2px solid #ddd;
+      border-radius:50%;
+    }
+    #center-circle {
+      position:absolute;
+      width:24px; height:24px;
+      background:var(--text-light);
+      border-radius:50%;
+      top:calc(50% - 12px);
+      left:calc(50% - 12px);
+      box-shadow:0 0 6px rgba(0,0,0,0.2);
+      z-index:1003;
+    }
+    #pointer {
+      position:absolute;
+      top:50%; right:-12px;
+      transform:translateY(-50%);
+      font-size:28px;
+      color:var(--brand-teal);
+      z-index:1004;
+    }
+    /* Botões de ação */
+    .action-btn {
+      display:inline-block;
+      margin-top:12px;
+      padding:12px 20px;
+      background:var(--brand-coral);
+      color:var(--text-light);
+      border:none; border-radius:8px;
+      font-size:16px; font-weight:600;
+      cursor:pointer;
+      transition: background var(--transition-fast), transform var(--transition-fast);
+    }
+    .action-btn:hover {
+      background:var(--brand-pink);
+      transform: translateY(-2px);
+    }
+    #claim-button { display:none; }
+    /* Resultado e Timer */
+    #result {
+      margin-top:16px;
+      font-size:18px; font-weight:600;
+      color:var(--brand-teal);
+      display:none;
+    }
+    /* Timer estilo “flip-clock” */
+    #timer {
+      text-align: center;
+      margin-top: 16px;
+      font-family: var(--font-family);
+    }
+    #timer .timer-header {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      color: var(--brand-coral);
+      margin-bottom: 8px;
+    }
+    #timer .timer-boxes {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+    }
+    #timer .timer-box {
+      background: #fff;
+      border-radius: 4px;
+      padding: 8px 12px;
+      min-width: 48px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    #timer .timer-value {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--text-dark);
+      line-height: 1;
+    }
+    #timer .timer-label {
+      font-size: 9px;
+      font-weight: 600;
+      color: var(--text-dark);
+      margin-top: 2px;
+      letter-spacing: 1px;
+    }
+    /* Animação de subida */
+    #wheel.animate-up canvas {
+      transform: translateY(-20%);
+    }
+      .free-shipping-toast {
+    position: fixed;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--brand-teal);
+    color: var(--text-light);
+    padding: 16px 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 2000;
+    text-align: center;
+    max-width: 90%;
+    line-height: 1.4;
+  }
+  .free-shipping-toast.show {
+    opacity: 1;
+  }
+  </style>
+</head>
+<body>
+  <div id="overlay"></div>
+  <button id="float-button" aria-label="Abrir Roleta">🎉</button>
+
+  <div id="wheel-popup">
+    <button id="close-btn" aria-label="Fechar"><i class="bi bi-x-lg"></i></button>
+    <div id="wheel">
+      <canvas id="wheel-canvas"></canvas>
+      <div id="center-circle"></div>
+      <div id="pointer"><i class="bi bi-pin-fill"></i></div>
+    </div>
+    <button id="spin-button" class="action-btn">GANHAR BRINDE</button>
+    <div id="result"></div>
+
+    <!-- Novo timer estilo flip-clock -->
+    <div id="timer" style="display:none;">
+      <div class="timer-header">EXPIRA EM</div>
+      <div class="timer-boxes">
+        <div class="timer-box">
+          <div class="timer-value" id="hours">00</div>
+          <div class="timer-label">HORAS</div>
+        </div>
+        <div class="timer-box">
+          <div class="timer-value" id="minutes">00</div>
+          <div class="timer-label">MINUTOS</div>
+        </div>
+        <div class="timer-box">
+          <div class="timer-value" id="seconds">00</div>
+          <div class="timer-label">SEGUNDOS</div>
+        </div>
+      </div>
+    </div>
+
+    <button id="claim-button" class="action-btn">PEGAR BRINDE</button>
+  </div>
+
+  <!-- Biblioteca leve de confete -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+  <script>
+  (function(){
+    const STORAGE_KEY = 'roleta_claim_timestamp';
+    const TWO_HOURS   = 2 * 60 * 60 * 1000; // ms
+
+    const floatBtn = document.getElementById('float-button');
+    const overlay  = document.getElementById('overlay');
+    const popup    = document.getElementById('wheel-popup');
+    const closeBtn = document.getElementById('close-btn');
+    const spinBtn  = document.getElementById('spin-button');
+    const resultD  = document.getElementById('result');
+    const timerD   = document.getElementById('timer');
+    const claimBtn = document.getElementById('claim-button');
+    const wheelEl  = document.getElementById('wheel');
+    const canvas   = document.getElementById('wheel-canvas');
+
+    // Segments & Colors
+    const segments = [
+      'NADA','FRETE GRÁTIS','NADA','4% OFF',
+      'NADA','4% OFF','NADA','3% OFF'
+    ];
+    const colors = [
+      '#3D2C29','#30a77e','#3D2C29','#8ACFC7',
+      '#3D2C29','#CFC5AF','#3D2C29','#f98087'
+    ];
+    const preselected = [1];
+
+    // Canvas Hi-DPI
+    const ctx = canvas.getContext('2d');
+    const dpr = window.devicePixelRatio||1;
+    const size = 300;
+    canvas.width  = size * dpr;
+    canvas.height = size * dpr;
+    ctx.scale(dpr,dpr);
+
+    function drawWheel(){
+      const cx=size/2, cy=size/2, num=segments.length, ang=2*Math.PI/num;
+      ctx.clearRect(0,0,size,size);
+      for(let i=0;i<num;i++){
+        const start=-Math.PI/2 + i*ang, end=start+ang;
+        ctx.fillStyle = colors[i];
+        ctx.beginPath(); ctx.moveTo(cx,cy);
+        ctx.arc(cx,cy,cx,start,end); ctx.fill();
+        ctx.strokeStyle='#fff'; ctx.lineWidth=2; ctx.stroke();
+        const mid = start + ang/2;
+        ctx.save(); ctx.translate(cx,cy); ctx.rotate(mid);
+        ctx.fillStyle='#fff'; ctx.font='600 14px Inter';
+        ctx.textAlign='center'; ctx.textBaseline='middle';
+        ctx.fillText(segments[i], cx*0.65, 0);
+        ctx.restore();
+      }
+    }
+    function createPins(){
+      const rect=canvas.getBoundingClientRect();
+      const cx=rect.width/2, cy=rect.height/2, r=cx;
+      for(let i=0;i<6;i++){
+        const el=document.createElement('div');
+        el.className='pin';
+        const ang=-Math.PI/2 + i*(2*Math.PI/6);
+        el.style.left = cx + Math.cos(ang)*(r+4)-5 + 'px';
+        el.style.top  = cy + Math.sin(ang)*(r+4)-5 + 'px';
+        wheelEl.appendChild(el);
+      }
+    }
+    function openPopup(){
+      overlay.style.display='block';
+      popup.style.display='block';
+      drawWheel();
+      createPins();
+    }
+    function closeAll(){
+      overlay.style.display='none';
+      popup.style.display='none';
+    }
+
+    // Verifica cache
+    const lastClaim = parseInt(localStorage.getItem(STORAGE_KEY),10);
+    if(lastClaim && (Date.now() - lastClaim < TWO_HOURS)) {
+      floatBtn.style.display='none';
+    }
+
+    floatBtn.addEventListener('click', ()=>{
+      openPopup();
+      floatBtn.style.display='none';
+    });
+    closeBtn.addEventListener('click', closeAll);
+    overlay.addEventListener('click', closeAll);
+
+    // Spin
+    spinBtn.addEventListener('click', ()=>{
+      spinBtn.remove();
+      const dur    = Math.random()*3 + 4;
+      const target = preselected[Math.floor(Math.random()*preselected.length)];
+      const full   = 4 + Math.floor(Math.random()*3);
+      const deg    = 360/segments.length;
+      const offset = 90 - (target*deg + deg/2);
+      const final  = full*360 + offset;
+
+      canvas.style.transform = `rotate(${final}deg)`;
+      canvas.style.transition = `transform ${dur}s cubic-bezier(.18,.85,.3,1)`;
+
+      canvas.addEventListener('transitionend', function end(){
+        canvas.removeEventListener('transitionend', end);
+        wheelEl.classList.add('animate-up');
+        resultD.textContent = 'Você ganhou: ' + segments[target];
+        resultD.style.display = 'block';
+
+        // === Início do timer flip-clock ===
+        timerD.style.display = 'block';
+        let remaining = 9 * 60 + 37;
+        function pad(n){ return n.toString().padStart(2,'0'); }
+        // Estado inicial
+        document.getElementById('hours').textContent   = pad(Math.floor(remaining / 3600));
+        document.getElementById('minutes').textContent = pad(Math.floor((remaining % 3600) / 60));
+        document.getElementById('seconds').textContent = pad(remaining % 60);
+
+        const iv = setInterval(()=>{
+          if(remaining <= 0){
+            clearInterval(iv);
+            document.querySelector('#timer .timer-header').textContent = 'EXPIRADO';
+            return;
+          }
+          remaining--;
+          const hrs = Math.floor(remaining / 3600);
+          const mins = Math.floor((remaining % 3600) / 60);
+          const secs = remaining % 60;
+          document.getElementById('hours').textContent   = pad(hrs);
+          document.getElementById('minutes').textContent = pad(mins);
+          document.getElementById('seconds').textContent = pad(secs);
+        }, 1000);
+        // === Fim do timer flip-clock ===
+
+        claimBtn.style.display = 'inline-block';
+        claimBtn.addEventListener('click', ()=>{
+          confetti({
+            particleCount: 200,
+            angle:        90,
+            spread:      120,
+            startVelocity: 65,
+            gravity:      0.3,
+            ticks:       400,
+            decay:       0.8,
+            origin: { x: 0.5, y: 0.6 }
+          });
+          clearInterval(iv);
+          localStorage.setItem(STORAGE_KEY, Date.now());
+                      // === Início: toast de frete grátis ===
+            const toast = document.createElement('div');
+            toast.className = 'free-shipping-toast';
+            toast.innerHTML  = 'Frete Grátis Aplicado no Carrinho<br>Agora é só adicionar o produto no carrinho.';
+            document.body.appendChild(toast);
+            requestAnimationFrame(() => toast.classList.add('show'));
+            setTimeout(() => {
+              toast.classList.remove('show');
+              setTimeout(() => document.body.removeChild(toast), 300);
+            }, 7000);
+            // === Fim: toast de frete grátis ===
+          setTimeout(closeAll, 10);
+        }, { once: true });
+
+      }, { once: true });
+    });
+
+  })();
+  </script>
+</body>
+</html>
+  
+
+	<!-- Avaliações Miniatura -->
+  
+      <!-- CSS do Resumo compacto -->
+<style>
+  .rating-summary-small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0rem;
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  .rating-summary-small .nota {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .rating-summary-small .stars .star {
+    font-size: 12px;
+    line-height: 1;
+    margin: 0 0.05em;
+  }
+  .rating-summary-small .stars .full {
+    color: #ffbe00;
+  }
+  .rating-summary-small .stars .empty {
+    color: #ddd;
+  }
+  .rating-summary-small .count {
+    color: #666;
+  }
+</style>
+
+<!-- Script do Resumo compacto para Home (usando map de reviews) -->
+<script>
+  document.addEventListener('DOMContentLoaded', init);
+  window.addEventListener('load', init);
+
+  function init() {
+    if (init.done) return;
+    init.done = true;
+
+    fetch('https://www.marthafreirestore.com.br/pagina/avaliacoes.html')
+      .then(res => res.text())
+      .then(html => {
+        const parser  = new DOMParser();
+        const doc     = parser.parseFromString(html, 'text/html');
+        const rows    = Array.from(doc.querySelectorAll('table tbody tr:not(:first-child)'));
+        const reviews = rows.map(row => ({
+          page:  row.children[0].textContent.trim(),
+          stars: +row.children[1].textContent.trim(),
+        }));
+
+        // Pré-construir mapa { pathname → [stars] }
+        const reviewsMap = reviews.reduce((map, { page, stars }) => {
+          if (!map[page]) map[page] = [];
+          map[page].push(stars);
+          return map;
+        }, {});
+
+        function injectSummaries() {
+          document.querySelectorAll('.listagem-item-wrap').forEach(item => {
+            if (item.querySelector('.rating-summary-small')) return;
+
+            // tenta achar o link da miniatura (Home e Categoria)
+            const link = item.querySelector('a.produto-sobrepor') 
+                      || item.querySelector('a.nome-produto');
+            if (!link || !link.href) return;
+
+            const pathname = new URL(link.href).pathname;
+            const prodStars = reviewsMap[pathname] || [];
+            if (!prodStars.length) return;
+
+            const sum = prodStars.reduce((acc, s) => acc + s, 0);
+            const avg = (sum / prodStars.length).toFixed(1);
+
+            const summary = document.createElement('div');
+            summary.className = 'rating-summary-small';
+            summary.innerHTML = `
+              <span class="nota">${avg} de 5</span>
+              <span class="stars">
+                ${[1,2,3,4,5].map(i =>
+                  `<i class="star ${i <= Math.round(avg) ? 'full' : 'empty'}">★</i>`
+                ).join('')}
+              </span>
+              <span class="count">(${prodStars.length})</span>
+            `;
+
+            // insere acima de .info-produto.prodTxt-2
+            const infoBox = item.querySelector('.info-produto.prodTxt-2');
+            if (infoBox && infoBox.parentNode) {
+              infoBox.parentNode.insertBefore(summary, infoBox);
+            }
+          });
+        }
+
+        // injeção inicial e tentativas para elementos carregados tardiamente
+        injectSummaries();
+        let tries = 0;
+        const interval = setInterval(() => {
+          injectSummaries();
+          if (++tries >= 10) clearInterval(interval);
+        }, 500);
+        window.addEventListener('load', injectSummaries);
+      })
+      .catch(console.error);
+  }
+</script>
+
+  
+
+	<!-- Selo PayPal -->
+  
+      <ul id="selos-rodape" class="hide">
+   <li>
+           <img src="https://www.paypalobjects.com/webstatic/pt_PT/mktg/logo-center/bdg_secured_by_pp_pt.png" alt="Securise par PayPal" />
+   </li>
+</ul>
+<script type="text/javascript">
+   $(document).ready(function() {
+       $('#selos-rodape li').appendTo($('#rodape .selos ul'));
+        $('#selos-rodape li img').appendTo($('.selo-ssl'));
+   });
+</script>
+<style>
+   .selos li { margin-bottom: 10px; }
+</style>
+  
+
+	<!-- [Config] Functions -->
+  
+    <script type="text/javascript" charset="utf-8">
+      // Função para definir cookie
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+// Função para ler cookie
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) === 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+    </script>
+  
+
+	<!-- GTM Body -->
+  
+      <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PCL728C"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  
+
+	<!-- Configuração Inicial -->
+  
+      <script>
+// Configuração inicial - Grand Store Women
+var avisoConfig = ''; // Nao mexer
+var v = 2;
+
+////// Configurações gerais
+var logoDesktop = 200;
+var logoMobile = 60;
+var desejos = true;
+var desejosIcone = 'desejosIcone1';
+var desejosTxt = 'Desejos';
+var desejosAdd = 'Adicionar aos desejos';
+var rastreioRapido = 7;
+var topoFlutuante = true;
+var infoDestaque = true;
+var infoDestaqueIcone = 'iconePresente';
+var infoDestaqueTxt = 'Cupom BEMVINDA';
+var infoDestaqueTxt2 = '';
+var infoDestaqueLink = '';
+var marcasSingular = 'Marca';
+var marcasPlural = 'Marcas';
+var marcasCarrosselTxt = 'Escolha pela marca';
+var marcasCarrosselAuto = true;
+var notificacao = true;
+var notificacaoD = 4;
+
+////// Atendimento
+var suporte = 2;
+var suporteLado = 1;
+var suporteAltura = 20;
+var suporteDistancia = 20;
+
+var wpTxt = 'Estamos no WhatsApp';
+var wp1 = '(11) 946491023';
+var wp1i = '';
+var wp1d = '';
+var wp1m = '';
+var wp1a = '';
+var wp2 = '';
+var wp2i = '';
+var wp2d = '';
+var wp2m = '';
+var wp2a = '';
+var wp3 = '';
+var wp3i = '';
+var wp3d = '';
+var wp3m = '';
+var wp3a = '';
+var telTxt = 'Compre por telefone';
+var tel1 = '';
+var tel1i = '';
+var tel2 = '';
+var tel2i = '';
+var tel3 = '';
+var tel3i = '';
+var mailTxt = 'Envie uma mensagem';
+var mailN = 13;
+var mail1 = 'suporte@marthafreirestore.com.br';
+var mail1i = 'Suporte Geral';
+var mail2 = 'pedido@marthafreirestore.com.br';
+var mail2i = 'Suporte ao Cliente';
+var mail3 = 'devolucao@marthafreirestore.com.br';
+var mail3i = 'Troca/Devolva Fácil';
+
+
+
+
+
+
+
+var h1 = 'Seg a Sex das 9:30h ás 17h';
+var h2 = 'Sab das 10h ás 14h';
+var h3 = '';
+
+////// Carrinho/checkout
+var carrinhoIcone = 'carrinhoIcone2';
+var ccL = 2;
+var ccE = true;
+var ccS = true;
+var alertaF = false;
+
+var alertaTxt = 'FRETE GRÁTIS';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var sCart = true;
+var cCart = true;
+var cCartT = 1;
+var cCartQ = 235;
+var cCartC = 'BEMVINDA';
+var cCartB = '5% de Desconto';
+var dPx = false;
+var dPN = 'BLACKFRIDAY';
+var dPxE = 1;
+var dPP = '';
+var dPT = 1;
+var dPV = 1;
+var dP1q = 1;
+var dP1d = 5;
+var dP1c = 'BEMVINDA';
+var dP2q = 2;
+var dP2d = 10;
+var dP2c = 'BEMVINDA10';
+var dP3q = 3;
+var dP3d = 15;
+var dP3c = 'BEMVINDA15';
+
+
+
+
+
+var ebPx = false;
+var ebPP = '254478709';
+var ebPV = 4;
+
+////// Menu Superior
+var categorias = 7; 
+var menuModelo = 1;
+var menuAbertura = 4;
+
+var produtosMenu = true;
+
+var todasCategorias = true;
+var todasCategoriasTxt = 'Todas as categorias';
+
+var iconesCategorias = true;
+var iconesCategoriasTamanho = 29;
+var iconeCategoria1 = '';
+var iconeCategoria2 = '';
+var iconeCategoria3 = '';
+var iconeCategoria4 = '';
+var iconeCategoria5 = '';
+var iconeCategoria6 = '';
+var iconeCategoria7 = '';
+var iconeCategoria8 = '';
+var iconeCategoria9 = '';
+var iconeCategoria10 = '';
+
+var paginaMenu1 = 'Trocar Fácil';
+var paginaMenu1Link = '/pagina/troca-facil.html';
+var paginaMenu2 = 'Rastreie Seu Pedido';
+var paginaMenu2Link = '/pagina/rastreie-o-seu-pedido.html';
+var paginaMenu3 = 'Meios de pagamento e';
+var paginaMenu3Link = '/pagina/meios-de-pagamento-e-frete.html';
+
+////// Ofertas
+
+
+
+
+
+
+
+
+
+
+////// Banners
+var fullFundo = '';
+var tarjaAvancado = true;
+var tarja1Icone = 'iconeFrete';
+var tarja1Txt = 'Frete grátis';
+var tarja1Sub = 'Compras acima de R$ 199,90';
+var tarja1Link = '';
+var tarja2Icone = 'iconeCartao';
+var tarja2Txt = '12x Sem Juros';
+var tarja2Sub = 'No Cartão';
+var tarja2Link = '';
+var tarja3Icone = 'iconePix';
+var tarja3Txt = '10% de Desconto';
+var tarja3Sub = 'No Pix';
+var tarja3Link = '';
+var tarja4Icone = 'iconeTroca';
+var tarja4Txt = 'Troca Grátis';
+var tarja4Sub = '1ª Troca Grátis';
+var tarja4Link = '';
+var escolhaTxt = 'Escolha Por Categoria';
+var escolhaImg = 8;
+
+////// Listagem
+var fixarImagem = false;
+var varL = true;
+var prodTxt = 2;
+var fixarAdicionar = false;
+var adicionar = 'Adicionar';
+var produtosCarrossel = true;
+var produtosCarrosselAuto = false;
+var produtosLinhaDesktop = 5;
+var produtosLinhaMobile = 2;
+var precoC = false;
+var precoP = false;
+var precoA = false;
+var comprarWhatsapp = false;
+var comprarWhatsappT = 'Comprar pelo whatsapp';
+var comprarWhatsappM = '';
+var comprarWhatsappV = false;
+var comprarWhatsappC = false;
+var bP = false;
+var bPCEP = false;
+var bPFrete = false;
+var bPp1 = 'Conjunto';
+var bPt1 = 'BLACKFRIDAY';
+var bPd1 = '';
+var bPp2 = 'Vestido';
+var bPt2 = 'BLACKFRIDAY';
+var bPd2 = '';
+var bPp3 = '';
+var bPt3 = '';
+var bPd3 = '';
+var tituloLancamentos = 'Lançamentos';
+var tituloVendidos = 'Mais vendidos';
+var tituloDestaques = 'Destaques';
+
+////// Video
+var videoDestaque = false;
+var videoTxt = 'Conjunto Encanto';
+var videoLink = 'https://www.youtube.com/watch?v=8kCKDTjEse0';
+var videoProduto = false;
+var videoProdutoTxt = 'Produtos no vídeo';
+var videoProdutoAuto = true;
+
+////// Depoimentos
+var depoimentos = true;
+var depoimentosAuto = true;
+var depoimentosTxt = 'Quem já comprou e recomenda';
+
+var dep1Avatar = 'https://cdn.awsli.com.br/2709/2709871/arquivos/1--3-.jpg';
+var dep1Msg = 'Amei o vestido! Ótima qualidade e compra super fácil. Virei cliente fiel!';
+var dep1Nome = 'Fernanda Amorim - São Paulo';
+var dep1Link = '';
+var dep2Avatar = 'https://cdn.awsli.com.br/2709/2709871/arquivos/1--4-.jpg';
+var dep2Msg = 'Conjunto lindo e de ótima qualidade! Site intuitivo e compra rápida. Recomendo!';
+var dep2Nome = 'Ana Luiza - Belo Horizonte';
+var dep2Link = '';
+var dep3Avatar = 'https://cdn.awsli.com.br/2709/2709871/arquivos/1--2-.jpg';
+var dep3Msg = 'Vestido lindo, como na foto! Site prático e várias opções de pagamento. Amei!';
+var dep3Nome = 'Mariana Oliveira - Curitiba';
+var dep3Link = '';
+var dep4Avatar = 'https://cdn.awsli.com.br/2709/2709871/arquivos/1--1-.jpg';
+var dep4Msg = 'Qualidade incrível e entrega rápida. Atendimento impecável. Comprarei mais vezes!';
+var dep4Nome = 'Laura Souza - São Caetano do Sul';
+var dep4Link = '';
+var dep5Avatar = '';
+var dep5Msg = '';
+var dep5Nome = '';
+var dep5Link = '';
+
+////// Blog
+var blog = false;
+var blogData = true;
+var blogResumo = true;
+var blogComentarios = true;
+var blogCompartilhar = true;
+var blogFeed = false;
+var blogFeedTxt = 'Últimas postagens';
+var blogAutor = false;
+var autor1Avatar = '';
+var autor1 = '';
+var autor1Bio = '';
+var autor2Avatar = '';
+var autor2 = '';
+var autor2Bio = '';
+var autor3Avatar = '';
+var autor3 = '';
+var autor3Bio = '';
+
+////// Newsletter
+var cupomNewsletter = 'BEMVINDA';
+var imgNewsletter = '';
+
+////// Redes Sociais
+var instaF = false;
+var instaR = false;
+
+var instaTxt = 'Gostou? Segue a gente';
+var instaT = 'IGAAHZA3atCb11BZAFBIWkNTYURkMWkzWE44QmhoT2FXaEdEcFFPV2tWakRtYWxxQTJUN01LNHFCY0hVU2NrTWhJZA1lvaWpjZA0dvRXV1U0lEd3JhdkctaEpwemNEU1lBXzRoSWdsX083R0N1UkllQmVDUGE2WHBCTmtXQk9rRThIawZDZD';
+var facebookBox = false;
+
+////// Rodape
+var rodapeLogo = '';
+var rodapeEndereco = 'Rua Doutor Guilherme Bannitz, 126 - Edifício George Town - Conj 81 E VG, Itaim Bibi, São Paulo - SP CEP: 04532-060';
+
+var rodapeSocial = 'Redes sociais';
+var rodapeSobre = 'Sobre nós';
+var rodapePaginas = 'Ajuda e Suporte';
+var rodapePagamento = 'Formas de pagamento';
+var rodapeSelos = 'Selos de segurança';
+
+
+
+
+
+
+
+////// Pagina do produto
+var imagemProduto = 480;
+var compartilhamento = false;
+var resumoFlutuante = true;
+var calculadoraFrete = true;
+var codigoTxt = 'Cód';
+var disponibilidadeTxt = '';
+var descricaoTxt = 'Descrição';
+var relacionadosTxt = 'Quem Comprou, Também Gostou...';
+var variacaoCor = true;
+var variacaoTxt = 'Primeiro você deve escolher uma opção.';
+var descricaoCurta = false;
+var pagamentoCompacto = true;
+var pagamentoTxt = 'Formas de Pagamento';
+
+
+
+
+
+
+var personalizador = false;
+var peB = 'Personalize';
+var peBT = 'Personalizar';
+var peU = '';
+var pe1T = 1;
+var pe1P = '';
+var pe1Txt = '';
+var pe1F = '';
+var pe1O = 1;
+var pe1L = 10;
+var pe1Obg = false;
+var pe1Aux = '';
+var pe1V1 = '';
+var pe1V2 = '';
+var pe1V3 = '';
+var pe2T = 2;
+var pe2P = '';
+var pe2Txt = '';
+var pe2F = '';
+var pe2O = 3;
+var pe2L = 2;
+var pe2Obg = false;
+var pe2Aux = '';
+var pe2V1 = '';
+var pe2V2 = '';
+var pe2V3 = '';
+var tabelaMedidas = true;
+var tabelaMedidasProduto = true;
+var tabelaNome = 'Tabela de Medidas';
+var tabelaImg1 = 'https://cdn.awsli.com.br/2709/2709871/arquivos/nova.png';
+var tabelaPalavra1 = 'Conjunto';
+var tabelaImg2 = 'https://cdn.awsli.com.br/2709/2709871/arquivos/nova.png';
+var tabelaPalavra2 = 'Vestido';
+var tabelaImg3 = 'https://cdn.awsli.com.br/2709/2709871/arquivos/nova.png';
+var tabelaPalavra3 = 'Biquíni';
+var validade = false;
+var validadeTxt = 'Validade:';
+var validadeA = 'Perto do vencimento';
+var validadeD = 30;
+var prevenda = false;
+var prevendaTxt = 'Pré-Venda';
+var prevendaTxt2 = 'Lançamento:';
+var prevendaTxt3 = '';
+var prevendaC = true;
+var calc = false;
+var calcPalavra = '';
+var calcObj = '';
+var calcTxt = '';
+var calcATxt = '';
+var calcA = 1.5;
+var calcLTxt = '';
+var calcL = 0.53;
+var calcDuvida = '';
+var lEx = false;
+
+var cModelo = 2;
+var cFundoEscuro = false;
+
+
+
+var bx = false;
+var avD = true;
+var avT = 1;
+var avIc = 'ic1';
+var avTxt = 'à vista';
+var avDesc = 5;
+var fale = false;
+var faleTxt = 'Enviar mensagem';
+var pimgM = 1;
+var pimgT = 108;
+var desc = 1;
+var evX = false;
+var evXP = 'Motoboy';
+var evXD = '3,4,5,6,0,2,1';
+var evX1 = 6;
+var evX2 = 17;
+var evXA = 10;
+var instaQ = 1;
+var ofs = true;
+var ofsTxt = 'Ofertas';
+var ofsSub = 'Últimas Unidades em Promoção';
+var ofsIc = 'ofsIc1';
+var ofsID = '23118202';
+var ofsM = 2;
+var ofsL = 1;
+var ofsP = 1;
+var ofsE = 0;
+var ofsT = 0;
+var ofsD = '08/12/2024';
+var mCsT = 2;
+var descT = true;
+var bxM = true;
+var mR = false;
+
+
+var agT = false;
+var agTP = '';
+var agTH = '03,07';
+var agTN = '6,0';
+var agT1 = 8;
+var agT2 = 18;
+var agTD = '08/11/2024';
+var bM = true;
+var bMM = '02,05,04,06,08';
+var fEv = true;
+var fEvTxt = 'Formas de envio';
+var fEvM = '01,02,03,04,09';
+var fEvP = '';
+var obS = true;
+var miniT = 1;
+var instaV = 0;
+var cartT = 2;
+var cartF = 0;
+var cartV = '499.99';
+var cartS = 1;
+var varN = false;
+var varC = 0;
+var instaM = 1;
+var supM = 1;
+var rFt = '';
+</script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre Franklin:wght@400;500;700" rel="stylesheet">
+
+<style>
+
+/*Cores*/
+:root {
+--csOfsT:#ffffff;
+--csOfs:#000000;
+--cOfsP2T:#ffffff;
+--cOfsP2:#000000;
+--cOfsPT:#ffffff;
+--cOfsP:#000000;
+--cOfsVT:#ffffff;
+--cOfsV:#000000;
+--cOfsMS:#18aff9;
+--cOfsMT:#ffffff;
+--cOfsM:#000000;
+--csCorPrincipal:#201f1f;
+--csBotoes:#30a77e;
+--csSuporte:#27bf64;
+--csSuporteIcone:#ffffff;
+--csInfoDestaque:#f1f1f1;
+--csInfoDestaqueTxt:#565656;
+--csCab:#ffffff;
+--csCabTxt:#201f1f;
+--csBusca:#f6f6f6;
+--csBuscaTxt:#808080;
+--csCarrinhoqtd:#30a77e;
+--csCarrinhoqtdn:#ffffff;
+--csMenu:#201f1f;
+--csMenuTxt:#ffffff;
+--csTodasCategorias:#ffffff;
+
+
+--csBandeiraDesconto:#ee8403;
+--csBp1:#ee8403;
+--csBp2:#4a93d4;
+--csBp3:#6aa84f;
+
+--cFundo:#ffffff;
+--cBotoes:#ef476f;
+--cBotoesTxt:#ffffff;
+--cTitulos:#201f1f;
+--cAlerta:#ef476f;
+--cdP:#201f1f;
+--cSuporte:#ef476f;
+--cSuporteIcone:#ffffff;
+--cBarra:#ffffff;
+--cBarraTxt:#606060;
+--cInfoDestaque:#ef476f;
+--cInfoDestaqueIcone:#ffffff;
+--cInfoDestaqueTxt:#ffffff;
+--cCab:#ffffff;
+--cCabIcones:#ef476f;
+--cCabTxt:#201f1f;
+--cBusca:#f6f6f6;
+--cBuscaTxt:#808080;
+--cCarrinhoqtd:#ef476f;
+--cCarrinhoqtdn:#ffffff;
+--cMenu:#ffffff;
+--cMenuTxt:#201f1f;
+--cTodasCategoriasIcone:#ef476f;
+--cTodasCategoriasTxt:#201f1f;
+
+
+
+
+
+--cBannerF:#ef476f;
+--cBannerN:#ffffff;
+--cBannerP:#ffffff;
+--cBannerB:#ef476f;
+--cBannerBTxt:#ffffff;
+--cTarja:#ffffff;
+--cTarjaIcone:#201f1f;
+--cTarjaTxt:#ef476f;
+--cTarjaSub:#201f1f;
+--cPreco:#ef476f;
+--cPix:#f3f6f4;
+--cPixIcone:#34bcac;
+--cPixTxt:#201f1f;
+--cBotaoWP:#ffffff;
+--cBotaoWPTxt:#ef476f;
+--cBotaoWPBorda:#ef476f;
+--cBandeiraDesconto:#51a92b;
+--cBandeiraDescontoTxt:#ffffff;
+--cBandeiraFrete:#199a64;
+--cBandeiraFreteTxt:#ffffff;
+--cBp1:#000000;
+--cBp1Txt:#ffffff;
+--cBp2:#c12c2c;
+--cBp2Txt:#ffffff;
+--cBp3:#653239;
+--cBp3Txt:#ffffff;
+--cVMarcas:#f7f7f7;
+--cVMarcasTxt:#201f1f;
+--cVVideo:#f7f7f7;
+--cVVideoTxt:#201f1f;
+--cVBlog:#ffffff;
+--cVBlogTxt:#201f1f;
+--cVBlogD:#ef476f;
+--cVDepoimentos:#f7f7f7;
+--cVDepoimentosTxt:#201f1f;
+--cNewsletter:#ffffff;
+--cNewsletterTxt:#201f1f;
+--cNewsletterCaixa:#f6f6f6;
+--cNewsletterCaixaTxt:#323232;
+--cRodape:#ffffff;
+--cRodapeTxt:#201f1f;
+--cRodapeRedes:#f3f3f3;
+--cRodapeRedesTxt:#424242;
+--cRodapeInferior:#ffffff;
+--cRodapeInferiorTxt:#181818;
+--cLancamento:#ef476f;
+--cDesc:#f9f9f9;
+--cDescTxt:#201f1f;
+}
+
+.vitrine-produtos {order:8}
+.vitrine-destaque {order:6}
+.vitrine-mas-vendido {order:2}
+.vitrine-lancamento {order:5}
+.vitrine-instagram {order:8}
+.vitrine-marcas {order:3}
+.vitrine-video {order:4}
+.vitrine-depoimentos {order:9}
+.vitrine-blog {order:7}
+
+.produto-descricao {order:1}
+.produto-comentarios {order:3}
+.produto-aproveite {order:4}
+.produto-comprejunto {order:2}
+
+.pagina-categoria .banner.vitrine {order:2}
+.pagina-categoria #listagemProdutos {order:4}
+.categoria-descricao {order:1}
+.categoria-newsletter {order:3}
+
+/* Fonte da loja*/
+body, input, select, .titulo, button, textarea, .pagina-pagina .caixa-sombreada p {font-family:Libre Franklin};
+    
+.vitrine-ofertas {order:10}
+</style>
+  
+
+	<!-- Tawk To -->
+  
+      <!-- Ajustes de CSS para o launcher do Tawk.to -->
+<style>
+  .widget-visible > iframe:first-of-type,
+  html.tawk-mobile .tawk-min-chat-icon {
+    transform-origin: bottom right !important;
+    transform: scale(0.8) translateX(-20px) !important;
+  }
+</style>
+
+<script>
+(function(){
+  function ajustarLauncher(){
+    const path = window.location.pathname.toLowerCase();
+    const shouldHide = path.includes('carrinho');
+
+    const lf = document.querySelector('.widget-visible > iframe:first-of-type');
+    if (lf) {
+      if (shouldHide) {
+        lf.style.display = 'none';
+      } else {
+        lf.style.display        = '';
+        lf.style.bottom         = '14px';
+        lf.style.width          = '40px';
+        lf.style.height         = '40px';
+        lf.style.transform      = 'scale(0.8) translateX(-20px)';
+        lf.style.transformOrigin= 'bottom right';
+      }
+    }
+
+    const icon = document.querySelector('.tawk-min-chat-icon');
+    if (icon) {
+      if (shouldHide) {
+        icon.style.display = 'none';
+      } else {
+        icon.style.display        = '';
+        icon.style.width          = '24px';
+        icon.style.height         = '24px';
+        icon.style.transform      = 'scale(0.8) translateX(-20px)';
+        icon.style.transformOrigin= 'bottom right';
+      }
+    }
+  }
+
+  // Ganchos oficiais do Tawk.to
+  window.Tawk_API = window.Tawk_API || {};
+  ['onLoad', 'onChatMaximized', 'onChatMinimized'].forEach(evt => {
+    window.Tawk_API[evt] = () => {
+      if (evt === 'onChatMinimized') {
+        setTimeout(ajustarLauncher, 50);
+      } else {
+        ajustarLauncher();
+      }
+    };
+  });
+
+  // Fallback robusto: observa recriações do iframe/ícone
+  const observer = new MutationObserver(ajustarLauncher);
+  observer.observe(document.body, { childList: true, subtree: true });
+  setTimeout(() => observer.disconnect(), 10000);
+
+  // (Opcional) seu setInterval original
+  let tries = 0;
+  const iv = setInterval(() => {
+    ajustarLauncher();
+    if (++tries > 10) clearInterval(iv);
+  }, 500);
+})();
+</script>
+
+<!-- Script padrão do Tawk.to -->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+    var s1=document.createElement("script"), s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5e62a13a8d24fc22658639a3/1iqnjruqt';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+  })();
+</script>
+
+  
+
+
+    
+
+    <script>
+      window.fbAsyncInit = function() {
+        if($('meta[property="fb:app_id"]').length) {
+          FB.init({
+            appId      : $('meta[property="fb:app_id"]').attr('content'),
+            xfbml      : true,
+            version    : 'v2.5'
+          });
+        } else {
+          FB.init({
+            xfbml      : true,
+            version    : 'v2.5'
+          });
+        }
+      };
+
+      (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    
+
+
+  
+  
+    <script type="text/javascript">
+      if('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/service-worker.js');
+        });
+      }
+    </script>
+  
+
+
+  </body>
+</html>
