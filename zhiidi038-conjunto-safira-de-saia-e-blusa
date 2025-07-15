@@ -1,0 +1,56 @@
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>Resposta ou Comentario</td>
+			<td>Nome</td>
+			<td>Imagem de perfil</td>
+			<td>Conteudo</td>
+			<td>Codigo do Comentario</td>
+			<td>Codigo a qual comentario pertence</td>
+			<td>Data de Publicação em formato brasileiro</td>
+			<td>Curtidas</td>
+		</tr>
+		<tr>
+			<td>r</td>
+			<td>Angela Maria</td>
+			<td>https://raw.githubusercontent.com/marthafreirestore1/imagens/refs/heads/main/image_001.jpg</td>
+			<td>Ele é muito bonito, valeu muito a compra, seu comentario me ajudou muito</td>
+			<td> </td>
+			<td>1</td>
+			<td>09/05/2025</td>
+			<td>19</td>
+		</tr>
+		<tr>
+			<td>C</td>
+			<td>Karol Brante Amorim</td>
+			<td>https://raw.githubusercontent.com/marthafreirestore1/imagens/refs/heads/main/image_013.jpg</td>
+			<td>Usei o provador virtual do site e deu que meu tamanho M, ficou perfeito ele é muito lindo</td>
+			<td>1</td>
+			<td> </td>
+			<td>4/05/2025</td>
+			<td>27</td>
+		</tr>
+		<tr>
+			<td>C</td>
+			<td>Laura Fernandes</td>
+			<td>https://raw.githubusercontent.com/marthafreirestore1/imagens/refs/heads/main/image_015.jpg</td>
+			<td>O meu chegou hoje, o caimento e o tecido dele é muito bom, chegou rapido por sedex</td>
+			<td>3</td>
+			<td> </td>
+			<td>19/04/2025</td>
+			<td>9</td>
+		</tr>
+		<tr>
+			<td>c</td>
+			<td>Beatriz Oliveira</td>
+			<td>https://raw.githubusercontent.com/marthafreirestore1/imagens/refs/heads/main/image_023.jpg</td>
+			<td>A estampa é muito linda, costumo usar só a saia ou a blusa de vez em quando, a blusa combina bastante com outras peças tambem, fiquei muito feliz com a compra</td>
+			<td>2</td>
+			<td> </td>
+			<td>2/04/2025</td>
+			<td>46</td>
+		</tr>
+	</tbody>
+</table>
+
+<p> </p>
