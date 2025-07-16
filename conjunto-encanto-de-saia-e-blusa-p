@@ -1,0 +1,56 @@
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>Resposta ou Comentario</td>
+			<td>Nome</td>
+			<td>Imagem de perfil</td>
+			<td>Conteudo</td>
+			<td>Codigo do Comentario</td>
+			<td>Codigo a qual comentario pertence</td>
+			<td>Data de Publicação em formato brasileiro</td>
+			<td>Curtidas</td>
+		</tr>
+		<tr>
+			<td>C</td>
+			<td>Isabel Nunes</td>
+			<td>https://raw.githubusercontent.com/marthafreirestore1/imagens/refs/heads/main/img%20(3).jpg</td>
+			<td>O meu chegou hoje, ele é muito lindo e o caimento ficou perfeito, vi minhas medidas pelo provador virtual e o tamanho sugerido foi M que deu certinho em mim</td>
+			<td>1</td>
+			<td> </td>
+			<td>09/07/2025</td>
+			<td>34</td>
+		</tr>
+		<tr>
+			<td>R</td>
+			<td>Patrícia Silveira</td>
+			<td>https://raw.githubusercontent.com/marthafreirestore1/imagens/refs/heads/main/img%20(7).jpg</td>
+			<td>Usei o provador virtual do site e deu certo no meu tamanho, ele chegou bem rapido pela loggi, a cor é muito bonita comprei no verde</td>
+			<td> </td>
+			<td>1</td>
+			<td>12/07/2025</td>
+			<td>16</td>
+		</tr>
+		<tr>
+			<td>C</td>
+			<td>Bruna Araújo</td>
+			<td>https://raw.githubusercontent.com/marthafreirestore1/imagens/refs/heads/main/img%20(6).jpg</td>
+			<td>Comprei esse e o esmeral que é outra cor e sem as mangas, os dois são muito bonitos, esse eu usei mais a noite, e o conjunto esmeral as vezes eu uso so a blusinha que fica muito bonito com tudo</td>
+			<td>2</td>
+			<td> </td>
+			<td>19/04/2025</td>
+			<td>68</td>
+		</tr>
+		<tr>
+			<td>c</td>
+			<td>Vanessa Cardoso</td>
+			<td>https://raw.githubusercontent.com/marthafreirestore1/imagens/refs/heads/main/img%20(5).jpg</td>
+			<td>O tecido é bem gostoso e chegou rapido aqui em Campinas, amei a compra foi tudo bem facil</td>
+			<td>3</td>
+			<td> </td>
+			<td>20/06/2025</td>
+			<td>22</td>
+		</tr>
+	</tbody>
+</table>
+
+<p> </p>
